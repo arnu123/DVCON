@@ -1,0 +1,31 @@
+{
+  "source": "coco_tasks_real",
+  "images_per_task": {
+    "1": 3594,
+    "2": 3596,
+    "3": 3593,
+    "4": 3589,
+    "5": 3597,
+    "6": 3592,
+    "7": 3592,
+    "8": 3598,
+    "9": 3588,
+    "10": 3588,
+    "11": 3593,
+    "12": 3594,
+    "13": 3598,
+    "14": 3593
+  },
+  "total_appearances": 202941,
+  "total_preferences": 26760,
+  "nonzero_entries": 178,
+  "max_value": 0.9974093437194824,
+  "min_support_threshold": 5,
+  "entries_clamped_low_support": 41,
+  "scale_int8_to_fp": 0.007874015748031496,
+  "bytes_total": 1120,
+  "shape": [
+    80,
+    14
+  ]
+}
