@@ -1,0 +1,222 @@
+{
+  "model": "yolov8n.pt",
+  "input_size": 640,
+  "stride8_layer_name": "model.4",
+  "stride8_layer_output_shape": [
+    1,
+    64,
+    80,
+    80
+  ],
+  "num_images_processed": 20,
+  "conf_threshold": 0.25,
+  "latency_ms": {
+    "mean": 50.3926157951355,
+    "median": 48.32744598388672,
+    "p90": 59.74488258361817,
+    "p99": 65.3416657447815
+  },
+  "total_detections": 89,
+  "per_image": [
+    {
+      "image_id": "000000000139",
+      "num_detections": 10,
+      "elapsed_ms": 66.12086296081543,
+      "feat_shape": [
+        64,
+        80,
+        80
+      ]
+    },
+    {
+      "image_id": "000000000285",
+      "num_detections": 1,
+      "elapsed_ms": 48.94590377807617,
+      "feat_shape": [
+        64,
+        80,
+        80
+      ]
+    },
+    {
+      "image_id": "000000000632",
+      "num_detections": 7,
+      "elapsed_ms": 44.06332969665527,
+      "feat_shape": [
+        64,
+        80,
+        80
+      ]
+    },
+    {
+      "image_id": "000000000724",
+      "num_detections": 2,
+      "elapsed_ms": 45.21512985229492,
+      "feat_shape": [
+        64,
+        80,
+        80
+      ]
+    },
+    {
+      "image_id": "000000000776",
+      "num_detections": 3,
+      "elapsed_ms": 45.74704170227051,
+      "feat_shape": [
+        64,
+        80,
+        80
+      ]
+    },
+    {
+      "image_id": "000000000785",
+      "num_detections": 2,
+      "elapsed_ms": 50.102949142456055,
+      "feat_shape": [
+        64,
+        80,
+        80
+      ]
+    },
+    {
+      "image_id": "000000000802",
+      "num_detections": 2,
+      "elapsed_ms": 43.55287551879883,
+      "feat_shape": [
+        64,
+        80,
+        80
+      ]
+    },
+    {
+      "image_id": "000000000872",
+      "num_detections": 1,
+      "elapsed_ms": 59.49211120605469,
+      "feat_shape": [
+        64,
+        80,
+        80
+      ]
+    },
+    {
+      "image_id": "000000000885",
+      "num_detections": 7,
+      "elapsed_ms": 47.37520217895508,
+      "feat_shape": [
+        64,
+        80,
+        80
+      ]
+    },
+    {
+      "image_id": "000000001000",
+      "num_detections": 13,
+      "elapsed_ms": 46.13018035888672,
+      "feat_shape": [
+        64,
+        80,
+        80
+      ]
+    },
+    {
+      "image_id": "000000001268",
+      "num_detections": 9,
+      "elapsed_ms": 48.33793640136719,
+      "feat_shape": [
+        64,
+        80,
+        80
+      ]
+    },
+    {
+      "image_id": "000000001296",
+      "num_detections": 2,
+      "elapsed_ms": 49.124956130981445,
+      "feat_shape": [
+        64,
+        80,
+        80
+      ]
+    },
+    {
+      "image_id": "000000001353",
+      "num_detections": 6,
+      "elapsed_ms": 58.13407897949219,
+      "feat_shape": [
+        64,
+        80,
+        80
+      ]
+    },
+    {
+      "image_id": "000000001425",
+      "num_detections": 2,
+      "elapsed_ms": 46.82612419128418,
+      "feat_shape": [
+        64,
+        80,
+        80
+      ]
+    },
+    {
+      "image_id": "000000001490",
+      "num_detections": 2,
+      "elapsed_ms": 48.31695556640625,
+      "feat_shape": [
+        64,
+        80,
+        80
+      ]
+    },
+    {
+      "image_id": "000000001503",
+      "num_detections": 5,
+      "elapsed_ms": 51.48482322692871,
+      "feat_shape": [
+        64,
+        80,
+        80
+      ]
+    },
+    {
+      "image_id": "000000001532",
+      "num_detections": 5,
+      "elapsed_ms": 53.54714393615723,
+      "feat_shape": [
+        64,
+        80,
+        80
+      ]
+    },
+    {
+      "image_id": "000000001584",
+      "num_detections": 7,
+      "elapsed_ms": 62.01982498168945,
+      "feat_shape": [
+        64,
+        80,
+        80
+      ]
+    },
+    {
+      "image_id": "000000001675",
+      "num_detections": 1,
+      "elapsed_ms": 46.9660758972168,
+      "feat_shape": [
+        64,
+        80,
+        80
+      ]
+    },
+    {
+      "image_id": "000000001761",
+      "num_detections": 2,
+      "elapsed_ms": 46.34881019592285,
+      "feat_shape": [
+        64,
+        80,
+        80
+      ]
+    }
+  ]
+}

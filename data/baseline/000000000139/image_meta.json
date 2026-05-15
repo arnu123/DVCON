@@ -1,0 +1,13 @@
+{
+  "image_id": "000000000139",
+  "filename": "000000000139.jpg",
+  "orig_shape_hw": [
+    426,
+    640
+  ],
+  "model_input_size": 640,
+  "scale_factor_h": 1.5023474178403755,
+  "scale_factor_w": 1.0,
+  "elapsed_ms": 66.12086296081543,
+  "num_detections": 10
+}
