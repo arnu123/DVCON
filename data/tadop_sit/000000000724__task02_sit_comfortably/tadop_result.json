@@ -1,0 +1,51 @@
+{
+  "image_id": "000000000724",
+  "image_path": "coco_images/val2017/000000000724.jpg",
+  "task_id_1based": 2,
+  "task_name": "sit_comfortably",
+  "orig_shape_hw": [
+    500,
+    375
+  ],
+  "num_raw_detections": 2,
+  "num_after_mask": 0,
+  "timing_ms": {
+    "yolo_inference": 62.13784217834473,
+    "roi_extraction": 0.0858306884765625,
+    "scoring": 0.08797645568847656,
+    "tadop_overhead": 0.17380714416503906,
+    "total": 62.311649322509766
+  },
+  "ranked_detections": [
+    {
+      "bbox_xyxy": [
+        119.34944915771484,
+        71.3357925415039,
+        254.78463745117188,
+        225.8324737548828
+      ],
+      "class_id": 11,
+      "confidence": 0.964879035949707,
+      "class_name": "stop sign",
+      "lut_prior": 0.0,
+      "cos_sim": 0.019077105447649956,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        201.55398559570312,
+        260.0238342285156,
+        223.24269104003906,
+        286.8785400390625
+      ],
+      "class_id": 11,
+      "confidence": 0.40783947706222534,
+      "class_name": "stop sign",
+      "lut_prior": 0.0,
+      "cos_sim": 0.029634233564138412,
+      "tadop_score": 0.0,
+      "masked_out": true
+    }
+  ]
+}

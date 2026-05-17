@@ -1,0 +1,171 @@
+{
+  "image_id": "000000000139",
+  "image_path": "coco_images/val2017/000000000139.jpg",
+  "task_id_1based": 2,
+  "task_name": "sit_comfortably",
+  "orig_shape_hw": [
+    426,
+    640
+  ],
+  "num_raw_detections": 10,
+  "num_after_mask": 3,
+  "timing_ms": {
+    "yolo_inference": 66.6360855102539,
+    "roi_extraction": 0.19502639770507812,
+    "scoring": 0.5240440368652344,
+    "tadop_overhead": 0.7190704345703125,
+    "total": 67.35515594482422
+  },
+  "ranked_detections": [
+    {
+      "bbox_xyxy": [
+        403.6623840332031,
+        221.14080810546875,
+        445.1174621582031,
+        307.02203369140625
+      ],
+      "class_id": 56,
+      "confidence": 0.2664434313774109,
+      "class_name": "chair",
+      "lut_prior": 0.8866126537322998,
+      "cos_sim": 0.00989426951855421,
+      "tadop_score": 0.0023373442420866145,
+      "masked_out": false
+    },
+    {
+      "bbox_xyxy": [
+        6.22161865234375,
+        166.239013671875,
+        154.5016326904297,
+        261.91064453125
+      ],
+      "class_id": 62,
+      "confidence": 0.9273054003715515,
+      "class_name": "tv",
+      "lut_prior": 0.0,
+      "cos_sim": -0.017360709607601166,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        293.21337890625,
+        217.485107421875,
+        354.4307861328125,
+        314.9140625
+      ],
+      "class_id": 56,
+      "confidence": 0.8531345129013062,
+      "class_name": "chair",
+      "lut_prior": 0.8866126537322998,
+      "cos_sim": -0.012667449191212654,
+      "tadop_score": 0.0,
+      "masked_out": false
+    },
+    {
+      "bbox_xyxy": [
+        412.58056640625,
+        156.95941162109375,
+        465.734130859375,
+        298.92144775390625
+      ],
+      "class_id": 0,
+      "confidence": 0.7119825482368469,
+      "class_name": "person",
+      "lut_prior": 0.003289473708719015,
+      "cos_sim": 0.010178410448133945,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        361.718017578125,
+        217.0418701171875,
+        443.8150634765625,
+        311.1986083984375
+      ],
+      "class_id": 56,
+      "confidence": 0.529613196849823,
+      "class_name": "chair",
+      "lut_prior": 0.8866126537322998,
+      "cos_sim": -6.045587360858917e-05,
+      "tadop_score": 0.0,
+      "masked_out": false
+    },
+    {
+      "bbox_xyxy": [
+        225.89608764648438,
+        177.44564819335938,
+        266.6139831542969,
+        213.05276489257812
+      ],
+      "class_id": 58,
+      "confidence": 0.4250182807445526,
+      "class_name": "potted plant",
+      "lut_prior": 0.0,
+      "cos_sim": 0.019552405923604965,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        548.8746337890625,
+        297.96429443359375,
+        588.011474609375,
+        400.89703369140625
+      ],
+      "class_id": 75,
+      "confidence": 0.41401541233062744,
+      "class_name": "vase",
+      "lut_prior": 0.0029069767333567142,
+      "cos_sim": 0.03611333668231964,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        443.7033386230469,
+        167.5078125,
+        508.5758972167969,
+        293.0091552734375
+      ],
+      "class_id": 72,
+      "confidence": 0.35405221581459045,
+      "class_name": "refrigerator",
+      "lut_prior": 0.0,
+      "cos_sim": 0.008518567308783531,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        448.56378173828125,
+        121.16627502441406,
+        461.38177490234375,
+        141.39967346191406
+      ],
+      "class_id": 74,
+      "confidence": 0.27430564165115356,
+      "class_name": "clock",
+      "lut_prior": 0.0,
+      "cos_sim": 0.06058002635836601,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        296.9105224609375,
+        215.92559814453125,
+        415.7025146484375,
+        311.74151611328125
+      ],
+      "class_id": 60,
+      "confidence": 0.2630462944507599,
+      "class_name": "dining table",
+      "lut_prior": 0.03414634242653847,
+      "cos_sim": -0.01117525715380907,
+      "tadop_score": 0.0,
+      "masked_out": true
+    }
+  ]
+}

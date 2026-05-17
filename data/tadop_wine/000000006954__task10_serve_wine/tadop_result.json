@@ -1,0 +1,126 @@
+{
+  "image_id": "000000006954",
+  "image_path": "coco_images/val2017/000000006954.jpg",
+  "task_id_1based": 10,
+  "task_name": "serve_wine",
+  "orig_shape_hw": [
+    480,
+    640
+  ],
+  "num_raw_detections": 7,
+  "num_after_mask": 0,
+  "timing_ms": {
+    "yolo_inference": 46.88715934753418,
+    "roi_extraction": 0.18095970153808594,
+    "scoring": 0.07581710815429688,
+    "tadop_overhead": 0.2567768096923828,
+    "total": 47.14393615722656
+  },
+  "ranked_detections": [
+    {
+      "bbox_xyxy": [
+        460.93023681640625,
+        233.6925048828125,
+        603.9796752929688,
+        365.5556640625
+      ],
+      "class_id": 29,
+      "confidence": 0.9137976765632629,
+      "class_name": "frisbee",
+      "lut_prior": 0.0,
+      "cos_sim": -0.012638194486498833,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        0.06512451171875,
+        102.4241943359375,
+        165.21963500976562,
+        452.77392578125
+      ],
+      "class_id": 0,
+      "confidence": 0.9077658653259277,
+      "class_name": "person",
+      "lut_prior": 0.0,
+      "cos_sim": -0.012947440147399902,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        365.5718078613281,
+        150.0196533203125,
+        441.6290588378906,
+        326.4891357421875
+      ],
+      "class_id": 0,
+      "confidence": 0.8152343034744263,
+      "class_name": "person",
+      "lut_prior": 0.0,
+      "cos_sim": -0.016459081321954727,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        380.36224365234375,
+        121.49021911621094,
+        639.8223876953125,
+        370.591064453125
+      ],
+      "class_id": 0,
+      "confidence": 0.7997881174087524,
+      "class_name": "person",
+      "lut_prior": 0.0,
+      "cos_sim": -0.014656860381364822,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        201.16238403320312,
+        125.64605712890625,
+        363.7829284667969,
+        371.42242431640625
+      ],
+      "class_id": 0,
+      "confidence": 0.7047572135925293,
+      "class_name": "person",
+      "lut_prior": 0.0,
+      "cos_sim": -0.004634743556380272,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        247.6124267578125,
+        227.4384765625,
+        351.06536865234375,
+        340.6556396484375
+      ],
+      "class_id": 29,
+      "confidence": 0.6933330297470093,
+      "class_name": "frisbee",
+      "lut_prior": 0.0,
+      "cos_sim": -0.0032095741480588913,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        144.02206420898438,
+        136.3084716796875,
+        261.5746765136719,
+        339.35906982421875
+      ],
+      "class_id": 0,
+      "confidence": 0.5074030756950378,
+      "class_name": "person",
+      "lut_prior": 0.0,
+      "cos_sim": -0.014940770342946053,
+      "tadop_score": 0.0,
+      "masked_out": true
+    }
+  ]
+}

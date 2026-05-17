@@ -1,0 +1,9 @@
+{
+  "task_id_1based": 2,
+  "task_name": "sit_comfortably",
+  "num_images": 20,
+  "mean_raw_detections": 4.45,
+  "mean_after_mask": 0.3,
+  "mean_total_latency_ms": 48.15143346786499,
+  "mean_tadop_overhead_ms": 0.22509098052978516
+}

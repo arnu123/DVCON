@@ -1,0 +1,66 @@
+{
+  "image_id": "000000000776",
+  "image_path": "coco_images/val2017/000000000776.jpg",
+  "task_id_1based": 10,
+  "task_name": "serve_wine",
+  "orig_shape_hw": [
+    640,
+    428
+  ],
+  "num_raw_detections": 3,
+  "num_after_mask": 0,
+  "timing_ms": {
+    "yolo_inference": 47.05190658569336,
+    "roi_extraction": 0.15306472778320312,
+    "scoring": 0.07200241088867188,
+    "tadop_overhead": 0.225067138671875,
+    "total": 47.276973724365234
+  },
+  "ranked_detections": [
+    {
+      "bbox_xyxy": [
+        0.648681640625,
+        267.85223388671875,
+        316.4146728515625,
+        639.8426513671875
+      ],
+      "class_id": 77,
+      "confidence": 0.7566906213760376,
+      "class_name": "teddy bear",
+      "lut_prior": 0.0,
+      "cos_sim": -0.006005283445119858,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        13.535079956054688,
+        1.736328125,
+        426.95574951171875,
+        535.179443359375
+      ],
+      "class_id": 77,
+      "confidence": 0.5506154894828796,
+      "class_name": "teddy bear",
+      "lut_prior": 0.0,
+      "cos_sim": 0.0015538879670202732,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        1.00738525390625,
+        53.094207763671875,
+        202.1224365234375,
+        292.68487548828125
+      ],
+      "class_id": 77,
+      "confidence": 0.4006549119949341,
+      "class_name": "teddy bear",
+      "lut_prior": 0.0,
+      "cos_sim": 0.0005536898970603943,
+      "tadop_score": 0.0,
+      "masked_out": true
+    }
+  ]
+}

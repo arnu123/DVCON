@@ -1,0 +1,66 @@
+{
+  "image_id": "000000006012",
+  "image_path": "coco_images/val2017/000000006012.jpg",
+  "task_id_1based": 10,
+  "task_name": "serve_wine",
+  "orig_shape_hw": [
+    531,
+    640
+  ],
+  "num_raw_detections": 3,
+  "num_after_mask": 0,
+  "timing_ms": {
+    "yolo_inference": 48.10190200805664,
+    "roi_extraction": 0.15878677368164062,
+    "scoring": 0.07295608520507812,
+    "tadop_overhead": 0.23174285888671875,
+    "total": 48.33364486694336
+  },
+  "ranked_detections": [
+    {
+      "bbox_xyxy": [
+        200.3141326904297,
+        243.8487548828125,
+        439.87957763671875,
+        469.5406494140625
+      ],
+      "class_id": 47,
+      "confidence": 0.7744972705841064,
+      "class_name": "apple",
+      "lut_prior": 0.0,
+      "cos_sim": 0.005183989182114601,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        333.82940673828125,
+        19.37139892578125,
+        549.7069702148438,
+        515.8224487304688
+      ],
+      "class_id": 46,
+      "confidence": 0.7182461619377136,
+      "class_name": "banana",
+      "lut_prior": 0.0,
+      "cos_sim": -0.0017319191247224808,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        89.99441528320312,
+        19.88604736328125,
+        303.40625,
+        507.9742431640625
+      ],
+      "class_id": 46,
+      "confidence": 0.5378183722496033,
+      "class_name": "banana",
+      "lut_prior": 0.0,
+      "cos_sim": 0.0014736764132976532,
+      "tadop_score": 0.0,
+      "masked_out": true
+    }
+  ]
+}

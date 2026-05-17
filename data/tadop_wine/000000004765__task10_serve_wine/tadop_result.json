@@ -1,0 +1,51 @@
+{
+  "image_id": "000000004765",
+  "image_path": "coco_images/val2017/000000004765.jpg",
+  "task_id_1based": 10,
+  "task_name": "serve_wine",
+  "orig_shape_hw": [
+    612,
+    612
+  ],
+  "num_raw_detections": 2,
+  "num_after_mask": 0,
+  "timing_ms": {
+    "yolo_inference": 45.28999328613281,
+    "roi_extraction": 0.09989738464355469,
+    "scoring": 0.06604194641113281,
+    "tadop_overhead": 0.1659393310546875,
+    "total": 45.4559326171875
+  },
+  "ranked_detections": [
+    {
+      "bbox_xyxy": [
+        207.938720703125,
+        127.64356231689453,
+        404.54608154296875,
+        383.3870544433594
+      ],
+      "class_id": 0,
+      "confidence": 0.9292290806770325,
+      "class_name": "person",
+      "lut_prior": 0.0,
+      "cos_sim": 0.006824959069490433,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        251.7268524169922,
+        336.3782653808594,
+        536.1776733398438,
+        423.1204528808594
+      ],
+      "class_id": 30,
+      "confidence": 0.3786698281764984,
+      "class_name": "skis",
+      "lut_prior": 0.0,
+      "cos_sim": 0.0022555170580744743,
+      "tadop_score": 0.0,
+      "masked_out": true
+    }
+  ]
+}

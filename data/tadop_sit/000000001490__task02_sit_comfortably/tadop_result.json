@@ -1,0 +1,51 @@
+{
+  "image_id": "000000001490",
+  "image_path": "coco_images/val2017/000000001490.jpg",
+  "task_id_1based": 2,
+  "task_name": "sit_comfortably",
+  "orig_shape_hw": [
+    315,
+    640
+  ],
+  "num_raw_detections": 2,
+  "num_after_mask": 0,
+  "timing_ms": {
+    "yolo_inference": 43.2889461517334,
+    "roi_extraction": 0.06389617919921875,
+    "scoring": 0.0629425048828125,
+    "tadop_overhead": 0.12683868408203125,
+    "total": 43.41578483581543
+  },
+  "ranked_detections": [
+    {
+      "bbox_xyxy": [
+        449.7964172363281,
+        119.078369140625,
+        499.2152404785156,
+        241.4091796875
+      ],
+      "class_id": 0,
+      "confidence": 0.8097792863845825,
+      "class_name": "person",
+      "lut_prior": 0.003289473708719015,
+      "cos_sim": 0.01809995248913765,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        356.423583984375,
+        230.42987060546875,
+        577.489990234375,
+        247.19525146484375
+      ],
+      "class_id": 37,
+      "confidence": 0.3318966329097748,
+      "class_name": "surfboard",
+      "lut_prior": 0.0,
+      "cos_sim": -0.013347662054002285,
+      "tadop_score": 0.0,
+      "masked_out": true
+    }
+  ]
+}

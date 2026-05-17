@@ -1,0 +1,81 @@
+{
+  "image_id": "000000003501",
+  "image_path": "coco_images/val2017/000000003501.jpg",
+  "task_id_1based": 10,
+  "task_name": "serve_wine",
+  "orig_shape_hw": [
+    612,
+    612
+  ],
+  "num_raw_detections": 4,
+  "num_after_mask": 0,
+  "timing_ms": {
+    "yolo_inference": 45.938968658447266,
+    "roi_extraction": 0.24819374084472656,
+    "scoring": 0.07295608520507812,
+    "tadop_overhead": 0.3211498260498047,
+    "total": 46.26011848449707
+  },
+  "ranked_detections": [
+    {
+      "bbox_xyxy": [
+        122.70384216308594,
+        66.68413543701172,
+        254.0612030029297,
+        215.4472198486328
+      ],
+      "class_id": 50,
+      "confidence": 0.7164066433906555,
+      "class_name": "broccoli",
+      "lut_prior": 0.0,
+      "cos_sim": -8.381064981222153e-05,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        71.61689758300781,
+        175.00279235839844,
+        254.72080993652344,
+        360.6201477050781
+      ],
+      "class_id": 50,
+      "confidence": 0.500174343585968,
+      "class_name": "broccoli",
+      "lut_prior": 0.0,
+      "cos_sim": 0.004077129997313023,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        8.555880546569824,
+        2.5584237575531006,
+        608.947021484375,
+        587.760498046875
+      ],
+      "class_id": 60,
+      "confidence": 0.4133424758911133,
+      "class_name": "dining table",
+      "lut_prior": 0.0,
+      "cos_sim": 0.0027851564809679985,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        10.50515079498291,
+        38.86393737792969,
+        571.9732055664062,
+        592.6065063476562
+      ],
+      "class_id": 45,
+      "confidence": 0.35543912649154663,
+      "class_name": "bowl",
+      "lut_prior": 0.022284122183918953,
+      "cos_sim": 0.004146283492445946,
+      "tadop_score": 0.0,
+      "masked_out": true
+    }
+  ]
+}

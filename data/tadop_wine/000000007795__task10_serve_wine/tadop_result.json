@@ -1,0 +1,81 @@
+{
+  "image_id": "000000007795",
+  "image_path": "coco_images/val2017/000000007795.jpg",
+  "task_id_1based": 10,
+  "task_name": "serve_wine",
+  "orig_shape_hw": [
+    427,
+    640
+  ],
+  "num_raw_detections": 4,
+  "num_after_mask": 0,
+  "timing_ms": {
+    "yolo_inference": 47.70183563232422,
+    "roi_extraction": 0.14710426330566406,
+    "scoring": 0.07390975952148438,
+    "tadop_overhead": 0.22101402282714844,
+    "total": 47.92284965515137
+  },
+  "ranked_detections": [
+    {
+      "bbox_xyxy": [
+        0.0,
+        270.998779296875,
+        448.6510009765625,
+        421.8905029296875
+      ],
+      "class_id": 59,
+      "confidence": 0.5940485000610352,
+      "class_name": "bed",
+      "lut_prior": 0.0,
+      "cos_sim": -0.027971839532256126,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        131.35647583007812,
+        187.45623779296875,
+        482.1264343261719,
+        369.25616455078125
+      ],
+      "class_id": 59,
+      "confidence": 0.49772024154663086,
+      "class_name": "bed",
+      "lut_prior": 0.0,
+      "cos_sim": -0.026758626103401184,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        353.24951171875,
+        229.43939208984375,
+        481.8580322265625,
+        365.65972900390625
+      ],
+      "class_id": 59,
+      "confidence": 0.4674373269081116,
+      "class_name": "bed",
+      "lut_prior": 0.0,
+      "cos_sim": -0.018164584413170815,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        44.59449768066406,
+        1.6807174682617188,
+        193.41888427734375,
+        143.2137451171875
+      ],
+      "class_id": 62,
+      "confidence": 0.2663757801055908,
+      "class_name": "tv",
+      "lut_prior": 0.0,
+      "cos_sim": 0.0006904136389493942,
+      "tadop_score": 0.0,
+      "masked_out": true
+    }
+  ]
+}

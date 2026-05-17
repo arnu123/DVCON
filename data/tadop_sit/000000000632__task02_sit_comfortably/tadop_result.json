@@ -1,0 +1,126 @@
+{
+  "image_id": "000000000632",
+  "image_path": "coco_images/val2017/000000000632.jpg",
+  "task_id_1based": 2,
+  "task_name": "sit_comfortably",
+  "orig_shape_hw": [
+    483,
+    640
+  ],
+  "num_raw_detections": 7,
+  "num_after_mask": 2,
+  "timing_ms": {
+    "yolo_inference": 47.04427719116211,
+    "roi_extraction": 0.18310546875,
+    "scoring": 0.08082389831542969,
+    "tadop_overhead": 0.2639293670654297,
+    "total": 47.30820655822754
+  },
+  "ranked_detections": [
+    {
+      "bbox_xyxy": [
+        0.139892578125,
+        278.8184814453125,
+        398.5662841796875,
+        478.2994384765625
+      ],
+      "class_id": 59,
+      "confidence": 0.9112929105758667,
+      "class_name": "bed",
+      "lut_prior": 0.6059602499008179,
+      "cos_sim": -0.021222926676273346,
+      "tadop_score": 0.0,
+      "masked_out": false
+    },
+    {
+      "bbox_xyxy": [
+        338.9000244140625,
+        214.6187744140625,
+        428.52069091796875,
+        350.3740234375
+      ],
+      "class_id": 58,
+      "confidence": 0.8827303647994995,
+      "class_name": "potted plant",
+      "lut_prior": 0.0,
+      "cos_sim": 0.006516631692647934,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        181.63803100585938,
+        127.32814025878906,
+        241.28671264648438,
+        228.999755859375
+      ],
+      "class_id": 58,
+      "confidence": 0.7648887038230896,
+      "class_name": "potted plant",
+      "lut_prior": 0.0,
+      "cos_sim": 0.006333181634545326,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        96.80912780761719,
+        192.05487060546875,
+        115.08567810058594,
+        232.26171875
+      ],
+      "class_id": 39,
+      "confidence": 0.6022533774375916,
+      "class_name": "bottle",
+      "lut_prior": 0.0,
+      "cos_sim": 0.005581135395914316,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        245.6948699951172,
+        230.37689208984375,
+        348.38812255859375,
+        318.44000244140625
+      ],
+      "class_id": 56,
+      "confidence": 0.5717725157737732,
+      "class_name": "chair",
+      "lut_prior": 0.8866126537322998,
+      "cos_sim": -0.008922223001718521,
+      "tadop_score": 0.0,
+      "masked_out": false
+    },
+    {
+      "bbox_xyxy": [
+        429.44500732421875,
+        186.82315063476562,
+        559.0963745117188,
+        228.97549438476562
+      ],
+      "class_id": 73,
+      "confidence": 0.255771666765213,
+      "class_name": "book",
+      "lut_prior": 0.0,
+      "cos_sim": -0.015053764916956425,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        428.76446533203125,
+        239.2137451171875,
+        553.1381225585938,
+        289.391845703125
+      ],
+      "class_id": 73,
+      "confidence": 0.2522716522216797,
+      "class_name": "book",
+      "lut_prior": 0.0,
+      "cos_sim": -0.025365162640810013,
+      "tadop_score": 0.0,
+      "masked_out": true
+    }
+  ]
+}

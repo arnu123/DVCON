@@ -1,0 +1,111 @@
+{
+  "image_id": "000000005992",
+  "image_path": "coco_images/val2017/000000005992.jpg",
+  "task_id_1based": 10,
+  "task_name": "serve_wine",
+  "orig_shape_hw": [
+    428,
+    640
+  ],
+  "num_raw_detections": 6,
+  "num_after_mask": 0,
+  "timing_ms": {
+    "yolo_inference": 47.290802001953125,
+    "roi_extraction": 0.19025802612304688,
+    "scoring": 0.07414817810058594,
+    "tadop_overhead": 0.2644062042236328,
+    "total": 47.55520820617676
+  },
+  "ranked_detections": [
+    {
+      "bbox_xyxy": [
+        555.18408203125,
+        218.957763671875,
+        639.5858154296875,
+        423.73895263671875
+      ],
+      "class_id": 18,
+      "confidence": 0.9225280284881592,
+      "class_name": "sheep",
+      "lut_prior": 0.0,
+      "cos_sim": -0.026660840958356857,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        25.838882446289062,
+        126.30625915527344,
+        236.01490783691406,
+        369.272705078125
+      ],
+      "class_id": 18,
+      "confidence": 0.9107783436775208,
+      "class_name": "sheep",
+      "lut_prior": 0.0,
+      "cos_sim": -0.006034175865352154,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        205.9746551513672,
+        160.4322509765625,
+        505.97222900390625,
+        424.0372314453125
+      ],
+      "class_id": 18,
+      "confidence": 0.8183524012565613,
+      "class_name": "sheep",
+      "lut_prior": 0.0,
+      "cos_sim": -0.020093442872166634,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        417.75677490234375,
+        125.08551025390625,
+        577.322021484375,
+        412.9068603515625
+      ],
+      "class_id": 18,
+      "confidence": 0.7964081168174744,
+      "class_name": "sheep",
+      "lut_prior": 0.0,
+      "cos_sim": -0.012361153960227966,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        555.1580810546875,
+        163.81484985351562,
+        639.72119140625,
+        289.4595642089844
+      ],
+      "class_id": 18,
+      "confidence": 0.4895220100879669,
+      "class_name": "sheep",
+      "lut_prior": 0.0,
+      "cos_sim": -0.013874423690140247,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        0.024316787719726562,
+        202.614501953125,
+        27.938920974731445,
+        261.70361328125
+      ],
+      "class_id": 2,
+      "confidence": 0.29714325070381165,
+      "class_name": "car",
+      "lut_prior": 0.0,
+      "cos_sim": -0.004043694585561752,
+      "tadop_score": 0.0,
+      "masked_out": true
+    }
+  ]
+}

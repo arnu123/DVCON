@@ -1,0 +1,36 @@
+{
+  "image_id": "000000005503",
+  "image_path": "coco_images/val2017/000000005503.jpg",
+  "task_id_1based": 10,
+  "task_name": "serve_wine",
+  "orig_shape_hw": [
+    500,
+    333
+  ],
+  "num_raw_detections": 1,
+  "num_after_mask": 0,
+  "timing_ms": {
+    "yolo_inference": 46.68164253234863,
+    "roi_extraction": 0.10704994201660156,
+    "scoring": 0.05984306335449219,
+    "tadop_overhead": 0.16689300537109375,
+    "total": 46.84853553771973
+  },
+  "ranked_detections": [
+    {
+      "bbox_xyxy": [
+        38.281883239746094,
+        178.20831298828125,
+        277.0313720703125,
+        473.0872802734375
+      ],
+      "class_id": 61,
+      "confidence": 0.8545897006988525,
+      "class_name": "toilet",
+      "lut_prior": 0.0,
+      "cos_sim": -0.014349106699228287,
+      "tadop_score": 0.0,
+      "masked_out": true
+    }
+  ]
+}

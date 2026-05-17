@@ -1,0 +1,96 @@
+{
+  "image_id": "000000008690",
+  "image_path": "coco_images/val2017/000000008690.jpg",
+  "task_id_1based": 10,
+  "task_name": "serve_wine",
+  "orig_shape_hw": [
+    480,
+    640
+  ],
+  "num_raw_detections": 5,
+  "num_after_mask": 0,
+  "timing_ms": {
+    "yolo_inference": 51.06091499328613,
+    "roi_extraction": 0.18095970153808594,
+    "scoring": 0.07200241088867188,
+    "tadop_overhead": 0.2529621124267578,
+    "total": 51.31387710571289
+  },
+  "ranked_detections": [
+    {
+      "bbox_xyxy": [
+        130.148681640625,
+        18.784759521484375,
+        352.2397155761719,
+        393.1833801269531
+      ],
+      "class_id": 0,
+      "confidence": 0.8102447986602783,
+      "class_name": "person",
+      "lut_prior": 0.0,
+      "cos_sim": -0.021540949121117592,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        319.49365234375,
+        76.72320556640625,
+        509.2568359375,
+        465.2958984375
+      ],
+      "class_id": 0,
+      "confidence": 0.6149517893791199,
+      "class_name": "person",
+      "lut_prior": 0.0,
+      "cos_sim": -0.018087616190314293,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        51.50030517578125,
+        254.00103759765625,
+        510.50860595703125,
+        476.24786376953125
+      ],
+      "class_id": 16,
+      "confidence": 0.5900650024414062,
+      "class_name": "dog",
+      "lut_prior": 0.0,
+      "cos_sim": -0.021741189062595367,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        58.36778259277344,
+        253.435546875,
+        510.94384765625,
+        477.27490234375
+      ],
+      "class_id": 19,
+      "confidence": 0.4792238771915436,
+      "class_name": "cow",
+      "lut_prior": 0.0,
+      "cos_sim": -0.021746501326560974,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        365.3653564453125,
+        303.18829345703125,
+        639.1114501953125,
+        477.2750244140625
+      ],
+      "class_id": 19,
+      "confidence": 0.40952426195144653,
+      "class_name": "cow",
+      "lut_prior": 0.0,
+      "cos_sim": -0.02456504851579666,
+      "tadop_score": 0.0,
+      "masked_out": true
+    }
+  ]
+}

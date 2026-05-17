@@ -1,0 +1,51 @@
+{
+  "image_id": "000000001490",
+  "image_path": "coco_images/val2017/000000001490.jpg",
+  "task_id_1based": 10,
+  "task_name": "serve_wine",
+  "orig_shape_hw": [
+    315,
+    640
+  ],
+  "num_raw_detections": 2,
+  "num_after_mask": 0,
+  "timing_ms": {
+    "yolo_inference": 47.93810844421387,
+    "roi_extraction": 0.07700920104980469,
+    "scoring": 0.07081031799316406,
+    "tadop_overhead": 0.14781951904296875,
+    "total": 48.085927963256836
+  },
+  "ranked_detections": [
+    {
+      "bbox_xyxy": [
+        449.7964172363281,
+        119.078369140625,
+        499.2152404785156,
+        241.4091796875
+      ],
+      "class_id": 0,
+      "confidence": 0.8097792863845825,
+      "class_name": "person",
+      "lut_prior": 0.0,
+      "cos_sim": -0.02195529267191887,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        356.423583984375,
+        230.42987060546875,
+        577.489990234375,
+        247.19525146484375
+      ],
+      "class_id": 37,
+      "confidence": 0.3318966329097748,
+      "class_name": "surfboard",
+      "lut_prior": 0.0,
+      "cos_sim": -0.01794872060418129,
+      "tadop_score": 0.0,
+      "masked_out": true
+    }
+  ]
+}

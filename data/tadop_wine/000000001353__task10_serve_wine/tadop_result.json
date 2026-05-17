@@ -1,0 +1,111 @@
+{
+  "image_id": "000000001353",
+  "image_path": "coco_images/val2017/000000001353.jpg",
+  "task_id_1based": 10,
+  "task_name": "serve_wine",
+  "orig_shape_hw": [
+    500,
+    375
+  ],
+  "num_raw_detections": 6,
+  "num_after_mask": 0,
+  "timing_ms": {
+    "yolo_inference": 49.201011657714844,
+    "roi_extraction": 0.18405914306640625,
+    "scoring": 0.07295608520507812,
+    "tadop_overhead": 0.2570152282714844,
+    "total": 49.45802688598633
+  },
+  "ranked_detections": [
+    {
+      "bbox_xyxy": [
+        62.42790222167969,
+        214.0677032470703,
+        181.71804809570312,
+        349.9273986816406
+      ],
+      "class_id": 0,
+      "confidence": 0.6774216890335083,
+      "class_name": "person",
+      "lut_prior": 0.0,
+      "cos_sim": -0.005847577936947346,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        220.4041748046875,
+        153.96163940429688,
+        279.9654235839844,
+        217.3564910888672
+      ],
+      "class_id": 0,
+      "confidence": 0.6489376425743103,
+      "class_name": "person",
+      "lut_prior": 0.0,
+      "cos_sim": -0.004202777519822121,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        66.77722930908203,
+        323.71630859375,
+        251.50108337402344,
+        455.3855895996094
+      ],
+      "class_id": 28,
+      "confidence": 0.5024368762969971,
+      "class_name": "suitcase",
+      "lut_prior": 0.0,
+      "cos_sim": -0.004266667179763317,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        149.15872192382812,
+        135.17684936523438,
+        201.64056396484375,
+        183.7293701171875
+      ],
+      "class_id": 0,
+      "confidence": 0.457420289516449,
+      "class_name": "person",
+      "lut_prior": 0.0,
+      "cos_sim": 0.00018953066319227219,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        139.65087890625,
+        179.72715759277344,
+        270.5684814453125,
+        382.2601318359375
+      ],
+      "class_id": 0,
+      "confidence": 0.4336775243282318,
+      "class_name": "person",
+      "lut_prior": 0.0,
+      "cos_sim": -0.004984764382243156,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        185.47515869140625,
+        68.24858093261719,
+        272.9245300292969,
+        167.06881713867188
+      ],
+      "class_id": 56,
+      "confidence": 0.2664586007595062,
+      "class_name": "chair",
+      "lut_prior": 0.0012360939290374517,
+      "cos_sim": -0.0018958263099193573,
+      "tadop_score": 0.0,
+      "masked_out": true
+    }
+  ]
+}

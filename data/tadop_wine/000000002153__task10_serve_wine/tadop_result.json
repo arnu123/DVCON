@@ -1,0 +1,96 @@
+{
+  "image_id": "000000002153",
+  "image_path": "coco_images/val2017/000000002153.jpg",
+  "task_id_1based": 10,
+  "task_name": "serve_wine",
+  "orig_shape_hw": [
+    480,
+    640
+  ],
+  "num_raw_detections": 5,
+  "num_after_mask": 0,
+  "timing_ms": {
+    "yolo_inference": 43.498992919921875,
+    "roi_extraction": 0.1323223114013672,
+    "scoring": 0.0629425048828125,
+    "tadop_overhead": 0.1952648162841797,
+    "total": 43.694257736206055
+  },
+  "ranked_detections": [
+    {
+      "bbox_xyxy": [
+        283.21649169921875,
+        277.3580322265625,
+        465.52166748046875,
+        447.385009765625
+      ],
+      "class_id": 0,
+      "confidence": 0.8755894899368286,
+      "class_name": "person",
+      "lut_prior": 0.0,
+      "cos_sim": -0.028032436966896057,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        175.66641235351562,
+        0.09622955322265625,
+        239.26156616210938,
+        118.88919067382812
+      ],
+      "class_id": 0,
+      "confidence": 0.8410137295722961,
+      "class_name": "person",
+      "lut_prior": 0.0,
+      "cos_sim": -0.018303420394659042,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        276.78997802734375,
+        300.5604248046875,
+        351.56829833984375,
+        439.6954345703125
+      ],
+      "class_id": 0,
+      "confidence": 0.6736006140708923,
+      "class_name": "person",
+      "lut_prior": 0.0,
+      "cos_sim": -0.031868889927864075,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        368.76312255859375,
+        205.55108642578125,
+        451.97259521484375,
+        380.40093994140625
+      ],
+      "class_id": 0,
+      "confidence": 0.5932542085647583,
+      "class_name": "person",
+      "lut_prior": 0.0,
+      "cos_sim": -0.02013133093714714,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        396.330078125,
+        183.22354125976562,
+        459.547607421875,
+        220.66976928710938
+      ],
+      "class_id": 34,
+      "confidence": 0.5787481665611267,
+      "class_name": "baseball bat",
+      "lut_prior": 0.0,
+      "cos_sim": -0.03554655984044075,
+      "tadop_score": 0.0,
+      "masked_out": true
+    }
+  ]
+}

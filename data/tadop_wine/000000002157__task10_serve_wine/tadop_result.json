@@ -1,0 +1,171 @@
+{
+  "image_id": "000000002157",
+  "image_path": "coco_images/val2017/000000002157.jpg",
+  "task_id_1based": 10,
+  "task_name": "serve_wine",
+  "orig_shape_hw": [
+    427,
+    640
+  ],
+  "num_raw_detections": 10,
+  "num_after_mask": 5,
+  "timing_ms": {
+    "yolo_inference": 45.931100845336914,
+    "roi_extraction": 0.21767616271972656,
+    "scoring": 0.080108642578125,
+    "tadop_overhead": 0.29778480529785156,
+    "total": 46.228885650634766
+  },
+  "ranked_detections": [
+    {
+      "bbox_xyxy": [
+        231.49449157714844,
+        51.00885009765625,
+        298.1630859375,
+        200.8944091796875
+      ],
+      "class_id": 40,
+      "confidence": 0.9168646931648254,
+      "class_name": "wine glass",
+      "lut_prior": 0.9106699824333191,
+      "cos_sim": -0.015876788645982742,
+      "tadop_score": 0.0,
+      "masked_out": false
+    },
+    {
+      "bbox_xyxy": [
+        163.19390869140625,
+        69.16119384765625,
+        232.4630126953125,
+        181.49322509765625
+      ],
+      "class_id": 40,
+      "confidence": 0.8513342142105103,
+      "class_name": "wine glass",
+      "lut_prior": 0.9106699824333191,
+      "cos_sim": -0.01850980520248413,
+      "tadop_score": 0.0,
+      "masked_out": false
+    },
+    {
+      "bbox_xyxy": [
+        113.69625854492188,
+        23.164398193359375,
+        198.0155029296875,
+        170.38858032226562
+      ],
+      "class_id": 40,
+      "confidence": 0.8313389420509338,
+      "class_name": "wine glass",
+      "lut_prior": 0.9106699824333191,
+      "cos_sim": -0.026497358456254005,
+      "tadop_score": 0.0,
+      "masked_out": false
+    },
+    {
+      "bbox_xyxy": [
+        14.270057678222656,
+        164.41217041015625,
+        265.2611999511719,
+        362.548095703125
+      ],
+      "class_id": 45,
+      "confidence": 0.8262224793434143,
+      "class_name": "bowl",
+      "lut_prior": 0.022284122183918953,
+      "cos_sim": -0.02429436333477497,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        88.46098327636719,
+        87.9886474609375,
+        157.33570861816406,
+        184.65435791015625
+      ],
+      "class_id": 40,
+      "confidence": 0.6735702753067017,
+      "class_name": "wine glass",
+      "lut_prior": 0.9106699824333191,
+      "cos_sim": -0.024104461073875427,
+      "tadop_score": 0.0,
+      "masked_out": false
+    },
+    {
+      "bbox_xyxy": [
+        0.17401123046875,
+        38.31715393066406,
+        640.0,
+        424.125732421875
+      ],
+      "class_id": 60,
+      "confidence": 0.6473312973976135,
+      "class_name": "dining table",
+      "lut_prior": 0.0,
+      "cos_sim": -0.018983878195285797,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        51.02106857299805,
+        23.211273193359375,
+        115.32728576660156,
+        173.72509765625
+      ],
+      "class_id": 40,
+      "confidence": 0.42358633875846863,
+      "class_name": "wine glass",
+      "lut_prior": 0.9106699824333191,
+      "cos_sim": -0.027221111580729485,
+      "tadop_score": 0.0,
+      "masked_out": false
+    },
+    {
+      "bbox_xyxy": [
+        223.56549072265625,
+        311.7647705078125,
+        409.38427734375,
+        416.2020263671875
+      ],
+      "class_id": 43,
+      "confidence": 0.38373056054115295,
+      "class_name": "knife",
+      "lut_prior": 0.0,
+      "cos_sim": -0.0378815159201622,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        224.7301788330078,
+        43.701446533203125,
+        426.06219482421875,
+        111.0975341796875
+      ],
+      "class_id": 45,
+      "confidence": 0.28032347559928894,
+      "class_name": "bowl",
+      "lut_prior": 0.022284122183918953,
+      "cos_sim": -0.024057583883404732,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        455.293701171875,
+        262.48291015625,
+        508.968994140625,
+        293.6949462890625
+      ],
+      "class_id": 51,
+      "confidence": 0.25843095779418945,
+      "class_name": "carrot",
+      "lut_prior": 0.0,
+      "cos_sim": 0.0467994287610054,
+      "tadop_score": 0.0,
+      "masked_out": true
+    }
+  ]
+}

@@ -1,0 +1,246 @@
+{
+  "image_id": "000000009590",
+  "image_path": "coco_images/val2017/000000009590.jpg",
+  "task_id_1based": 10,
+  "task_name": "serve_wine",
+  "orig_shape_hw": [
+    427,
+    640
+  ],
+  "num_raw_detections": 15,
+  "num_after_mask": 3,
+  "timing_ms": {
+    "yolo_inference": 48.27308654785156,
+    "roi_extraction": 0.19669532775878906,
+    "scoring": 0.07605552673339844,
+    "tadop_overhead": 0.2727508544921875,
+    "total": 48.54583740234375
+  },
+  "ranked_detections": [
+    {
+      "bbox_xyxy": [
+        0.170196533203125,
+        57.0877685546875,
+        244.41976928710938,
+        418.92974853515625
+      ],
+      "class_id": 0,
+      "confidence": 0.8865290284156799,
+      "class_name": "person",
+      "lut_prior": 0.0,
+      "cos_sim": -0.022218532860279083,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        253.41616821289062,
+        176.01107788085938,
+        328.2702331542969,
+        257.7021789550781
+      ],
+      "class_id": 0,
+      "confidence": 0.8378040194511414,
+      "class_name": "person",
+      "lut_prior": 0.0,
+      "cos_sim": -0.03202459216117859,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        381.47760009765625,
+        169.44561767578125,
+        456.54681396484375,
+        261.75164794921875
+      ],
+      "class_id": 0,
+      "confidence": 0.8234297037124634,
+      "class_name": "person",
+      "lut_prior": 0.0,
+      "cos_sim": -0.04383482038974762,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        177.15951538085938,
+        95.33169555664062,
+        199.28024291992188,
+        125.70956420898438
+      ],
+      "class_id": 74,
+      "confidence": 0.7953491806983948,
+      "class_name": "clock",
+      "lut_prior": 0.0,
+      "cos_sim": 0.011933238245546818,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        487.6914367675781,
+        112.66453552246094,
+        639.853271484375,
+        287.193115234375
+      ],
+      "class_id": 0,
+      "confidence": 0.7754343748092651,
+      "class_name": "person",
+      "lut_prior": 0.0,
+      "cos_sim": -0.034026168286800385,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        428.33843994140625,
+        227.1641845703125,
+        451.34912109375,
+        276.0411376953125
+      ],
+      "class_id": 39,
+      "confidence": 0.7661358118057251,
+      "class_name": "bottle",
+      "lut_prior": 0.005571030545979738,
+      "cos_sim": -0.02774619311094284,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        424.14898681640625,
+        275.6219482421875,
+        471.76116943359375,
+        307.488525390625
+      ],
+      "class_id": 45,
+      "confidence": 0.7448054552078247,
+      "class_name": "bowl",
+      "lut_prior": 0.022284122183918953,
+      "cos_sim": -0.031437866389751434,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        383.88177490234375,
+        272.7670593261719,
+        418.41424560546875,
+        300.2701110839844
+      ],
+      "class_id": 45,
+      "confidence": 0.692405104637146,
+      "class_name": "bowl",
+      "lut_prior": 0.022284122183918953,
+      "cos_sim": -0.006323223002254963,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        485.33441162109375,
+        248.6068115234375,
+        521.9061889648438,
+        323.98095703125
+      ],
+      "class_id": 39,
+      "confidence": 0.6813201904296875,
+      "class_name": "bottle",
+      "lut_prior": 0.005571030545979738,
+      "cos_sim": -0.02310865744948387,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        137.88726806640625,
+        156.7171630859375,
+        231.94879150390625,
+        283.76495361328125
+      ],
+      "class_id": 0,
+      "confidence": 0.5844261646270752,
+      "class_name": "person",
+      "lut_prior": 0.0,
+      "cos_sim": -0.04241707921028137,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        542.016845703125,
+        215.339599609375,
+        569.5947265625,
+        239.4683837890625
+      ],
+      "class_id": 41,
+      "confidence": 0.5367465615272522,
+      "class_name": "cup",
+      "lut_prior": 0.6903367638587952,
+      "cos_sim": -0.055070217698812485,
+      "tadop_score": 0.0,
+      "masked_out": false
+    },
+    {
+      "bbox_xyxy": [
+        347.16400146484375,
+        269.39385986328125,
+        386.9637451171875,
+        311.22332763671875
+      ],
+      "class_id": 41,
+      "confidence": 0.5004585981369019,
+      "class_name": "cup",
+      "lut_prior": 0.6903367638587952,
+      "cos_sim": -0.041016824543476105,
+      "tadop_score": 0.0,
+      "masked_out": false
+    },
+    {
+      "bbox_xyxy": [
+        287.37408447265625,
+        273.700927734375,
+        323.31768798828125,
+        295.21209716796875
+      ],
+      "class_id": 45,
+      "confidence": 0.46889278292655945,
+      "class_name": "bowl",
+      "lut_prior": 0.022284122183918953,
+      "cos_sim": -0.03655380755662918,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        302.9654541015625,
+        239.43896484375,
+        315.98779296875,
+        265.1981201171875
+      ],
+      "class_id": 41,
+      "confidence": 0.4352912902832031,
+      "class_name": "cup",
+      "lut_prior": 0.6903367638587952,
+      "cos_sim": -0.024850118905305862,
+      "tadop_score": 0.0,
+      "masked_out": false
+    },
+    {
+      "bbox_xyxy": [
+        223.8633575439453,
+        246.44384765625,
+        638.6996459960938,
+        419.2154541015625
+      ],
+      "class_id": 60,
+      "confidence": 0.35695746541023254,
+      "class_name": "dining table",
+      "lut_prior": 0.0,
+      "cos_sim": -0.005212366580963135,
+      "tadop_score": 0.0,
+      "masked_out": true
+    }
+  ]
+}

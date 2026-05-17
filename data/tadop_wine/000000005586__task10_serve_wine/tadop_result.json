@@ -1,0 +1,126 @@
+{
+  "image_id": "000000005586",
+  "image_path": "coco_images/val2017/000000005586.jpg",
+  "task_id_1based": 10,
+  "task_name": "serve_wine",
+  "orig_shape_hw": [
+    240,
+    320
+  ],
+  "num_raw_detections": 7,
+  "num_after_mask": 0,
+  "timing_ms": {
+    "yolo_inference": 45.91703414916992,
+    "roi_extraction": 0.13709068298339844,
+    "scoring": 0.07486343383789062,
+    "tadop_overhead": 0.21195411682128906,
+    "total": 46.12898826599121
+  },
+  "ranked_detections": [
+    {
+      "bbox_xyxy": [
+        142.94546508789062,
+        68.21813201904297,
+        176.27420043945312,
+        157.0919189453125
+      ],
+      "class_id": 0,
+      "confidence": 0.8200746774673462,
+      "class_name": "person",
+      "lut_prior": 0.0,
+      "cos_sim": -0.01194079965353012,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        131.43637084960938,
+        169.96139526367188,
+        200.27297973632812,
+        225.63009643554688
+      ],
+      "class_id": 0,
+      "confidence": 0.7069749236106873,
+      "class_name": "person",
+      "lut_prior": 0.0,
+      "cos_sim": -0.012224143370985985,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        291.63067626953125,
+        61.48887634277344,
+        302.3984375,
+        103.16322326660156
+      ],
+      "class_id": 0,
+      "confidence": 0.6804212927818298,
+      "class_name": "person",
+      "lut_prior": 0.0,
+      "cos_sim": -0.01560484804213047,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        130.38739013671875,
+        93.78265380859375,
+        150.15167236328125,
+        103.605712890625
+      ],
+      "class_id": 38,
+      "confidence": 0.5360115170478821,
+      "class_name": "tennis racket",
+      "lut_prior": 0.0,
+      "cos_sim": -0.01949045993387699,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        271.9277648925781,
+        71.35734558105469,
+        295.1700744628906,
+        111.54368591308594
+      ],
+      "class_id": 0,
+      "confidence": 0.5315994620323181,
+      "class_name": "person",
+      "lut_prior": 0.0,
+      "cos_sim": 0.001353539526462555,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        254.73092651367188,
+        68.14862060546875,
+        281.8167419433594,
+        93.36822509765625
+      ],
+      "class_id": 13,
+      "confidence": 0.2946016788482666,
+      "class_name": "bench",
+      "lut_prior": 0.0,
+      "cos_sim": 0.008800104260444641,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        298.56634521484375,
+        86.17639923095703,
+        319.86187744140625,
+        111.2938232421875
+      ],
+      "class_id": 0,
+      "confidence": 0.2749210298061371,
+      "class_name": "person",
+      "lut_prior": 0.0,
+      "cos_sim": -0.004381019622087479,
+      "tadop_score": 0.0,
+      "masked_out": true
+    }
+  ]
+}

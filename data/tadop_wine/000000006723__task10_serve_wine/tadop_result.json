@@ -1,0 +1,96 @@
+{
+  "image_id": "000000006723",
+  "image_path": "coco_images/val2017/000000006723.jpg",
+  "task_id_1based": 10,
+  "task_name": "serve_wine",
+  "orig_shape_hw": [
+    361,
+    640
+  ],
+  "num_raw_detections": 5,
+  "num_after_mask": 0,
+  "timing_ms": {
+    "yolo_inference": 48.330068588256836,
+    "roi_extraction": 0.06914138793945312,
+    "scoring": 0.06794929504394531,
+    "tadop_overhead": 0.13709068298339844,
+    "total": 48.467159271240234
+  },
+  "ranked_detections": [
+    {
+      "bbox_xyxy": [
+        283.70989990234375,
+        200.36737060546875,
+        302.62847900390625,
+        212.28265380859375
+      ],
+      "class_id": 2,
+      "confidence": 0.5606771111488342,
+      "class_name": "car",
+      "lut_prior": 0.0,
+      "cos_sim": -0.00042834505438804626,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        205.4423828125,
+        201.04458618164062,
+        241.02020263671875,
+        228.79684448242188
+      ],
+      "class_id": 2,
+      "confidence": 0.5429126620292664,
+      "class_name": "car",
+      "lut_prior": 0.0,
+      "cos_sim": -0.04590868204832077,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        171.3333282470703,
+        201.00564575195312,
+        232.2013397216797,
+        223.80087280273438
+      ],
+      "class_id": 2,
+      "confidence": 0.43072494864463806,
+      "class_name": "car",
+      "lut_prior": 0.0,
+      "cos_sim": -0.03522961586713791,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        171.23486328125,
+        200.98367309570312,
+        197.00238037109375,
+        224.45059204101562
+      ],
+      "class_id": 2,
+      "confidence": 0.40012127161026,
+      "class_name": "car",
+      "lut_prior": 0.0,
+      "cos_sim": -0.0240657776594162,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        332.056640625,
+        200.70016479492188,
+        347.2532958984375,
+        210.87710571289062
+      ],
+      "class_id": 2,
+      "confidence": 0.2556966543197632,
+      "class_name": "car",
+      "lut_prior": 0.0,
+      "cos_sim": -0.026302874088287354,
+      "tadop_score": 0.0,
+      "masked_out": true
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "image_id": "000000001503",
+  "image_path": "coco_images/val2017/000000001503.jpg",
+  "task_id_1based": 2,
+  "task_name": "sit_comfortably",
+  "orig_shape_hw": [
+    240,
+    320
+  ],
+  "num_raw_detections": 5,
+  "num_after_mask": 0,
+  "timing_ms": {
+    "yolo_inference": 46.60296440124512,
+    "roi_extraction": 0.15592575073242188,
+    "scoring": 0.06508827209472656,
+    "tadop_overhead": 0.22101402282714844,
+    "total": 46.823978424072266
+  },
+  "ranked_detections": [
+    {
+      "bbox_xyxy": [
+        161.58734130859375,
+        151.9571533203125,
+        316.52581787109375,
+        197.4853515625
+      ],
+      "class_id": 66,
+      "confidence": 0.9240974187850952,
+      "class_name": "keyboard",
+      "lut_prior": 0.0,
+      "cos_sim": 0.020126083865761757,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        0.1340789794921875,
+        98.75408935546875,
+        126.40415954589844,
+        237.26531982421875
+      ],
+      "class_id": 63,
+      "confidence": 0.9180540442466736,
+      "class_name": "laptop",
+      "lut_prior": 0.0,
+      "cos_sim": 0.016172928735613823,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        124.8257064819336,
+        12.073673248291016,
+        238.97085571289062,
+        104.8912353515625
+      ],
+      "class_id": 62,
+      "confidence": 0.9108461737632751,
+      "class_name": "tv",
+      "lut_prior": 0.0,
+      "cos_sim": 0.005627723410725594,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        122.95016479492188,
+        179.69651794433594,
+        158.2493896484375,
+        199.65065002441406
+      ],
+      "class_id": 64,
+      "confidence": 0.8734942078590393,
+      "class_name": "mouse",
+      "lut_prior": 0.0,
+      "cos_sim": 0.01346653699874878,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        132.73556518554688,
+        110.725830078125,
+        204.37380981445312,
+        159.33828735351562
+      ],
+      "class_id": 64,
+      "confidence": 0.42172399163246155,
+      "class_name": "mouse",
+      "lut_prior": 0.0,
+      "cos_sim": 0.016755642369389534,
+      "tadop_score": 0.0,
+      "masked_out": true
+    }
+  ]
+}

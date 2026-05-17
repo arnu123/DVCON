@@ -1,0 +1,51 @@
+{
+  "image_id": "000000006614",
+  "image_path": "coco_images/val2017/000000006614.jpg",
+  "task_id_1based": 10,
+  "task_name": "serve_wine",
+  "orig_shape_hw": [
+    396,
+    500
+  ],
+  "num_raw_detections": 2,
+  "num_after_mask": 0,
+  "timing_ms": {
+    "yolo_inference": 51.194190979003906,
+    "roi_extraction": 0.11181831359863281,
+    "scoring": 0.07128715515136719,
+    "tadop_overhead": 0.18310546875,
+    "total": 51.377296447753906
+  },
+  "ranked_detections": [
+    {
+      "bbox_xyxy": [
+        306.70611572265625,
+        64.83221435546875,
+        483.5142822265625,
+        251.9156036376953
+      ],
+      "class_id": 47,
+      "confidence": 0.31321507692337036,
+      "class_name": "apple",
+      "lut_prior": 0.0,
+      "cos_sim": -0.02029186487197876,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        125.98198699951172,
+        66.48055267333984,
+        309.0003967285156,
+        252.29092407226562
+      ],
+      "class_id": 49,
+      "confidence": 0.26793918013572693,
+      "class_name": "orange",
+      "lut_prior": 0.0,
+      "cos_sim": -0.029751252382993698,
+      "tadop_score": 0.0,
+      "masked_out": true
+    }
+  ]
+}

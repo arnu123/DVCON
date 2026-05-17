@@ -1,0 +1,81 @@
+{
+  "image_id": "000000003661",
+  "image_path": "coco_images/val2017/000000003661.jpg",
+  "task_id_1based": 10,
+  "task_name": "serve_wine",
+  "orig_shape_hw": [
+    384,
+    640
+  ],
+  "num_raw_detections": 4,
+  "num_after_mask": 1,
+  "timing_ms": {
+    "yolo_inference": 46.16212844848633,
+    "roi_extraction": 0.15473365783691406,
+    "scoring": 0.06723403930664062,
+    "tadop_overhead": 0.2219676971435547,
+    "total": 46.38409614562988
+  },
+  "ranked_detections": [
+    {
+      "bbox_xyxy": [
+        563.3078002929688,
+        18.738983154296875,
+        639.6085815429688,
+        257.5209045410156
+      ],
+      "class_id": 41,
+      "confidence": 0.8087023496627808,
+      "class_name": "cup",
+      "lut_prior": 0.6903367638587952,
+      "cos_sim": -0.011491427198052406,
+      "tadop_score": 0.0,
+      "masked_out": false
+    },
+    {
+      "bbox_xyxy": [
+        89.20590209960938,
+        175.17697143554688,
+        475.5562438964844,
+        349.9292297363281
+      ],
+      "class_id": 46,
+      "confidence": 0.7424136996269226,
+      "class_name": "banana",
+      "lut_prior": 0.0,
+      "cos_sim": -0.002682044170796871,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        66.90087890625,
+        2.005462646484375,
+        421.32427978515625,
+        206.37606811523438
+      ],
+      "class_id": 46,
+      "confidence": 0.6438481211662292,
+      "class_name": "banana",
+      "lut_prior": 0.0,
+      "cos_sim": 0.01282995380461216,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        360.234375,
+        2.11676025390625,
+        552.7247314453125,
+        204.28521728515625
+      ],
+      "class_id": 49,
+      "confidence": 0.315992534160614,
+      "class_name": "orange",
+      "lut_prior": 0.0,
+      "cos_sim": 0.0014200620353221893,
+      "tadop_score": 0.0,
+      "masked_out": true
+    }
+  ]
+}

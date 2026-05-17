@@ -1,0 +1,81 @@
+{
+  "image_id": "000000007991",
+  "image_path": "coco_images/val2017/000000007991.jpg",
+  "task_id_1based": 10,
+  "task_name": "serve_wine",
+  "orig_shape_hw": [
+    359,
+    640
+  ],
+  "num_raw_detections": 4,
+  "num_after_mask": 1,
+  "timing_ms": {
+    "yolo_inference": 50.063133239746094,
+    "roi_extraction": 0.14591217041015625,
+    "scoring": 0.07486343383789062,
+    "tadop_overhead": 0.22077560424804688,
+    "total": 50.28390884399414
+  },
+  "ranked_detections": [
+    {
+      "bbox_xyxy": [
+        482.22320556640625,
+        113.1611328125,
+        521.5282592773438,
+        300.63641357421875
+      ],
+      "class_id": 42,
+      "confidence": 0.5279349684715271,
+      "class_name": "fork",
+      "lut_prior": 0.0,
+      "cos_sim": -0.018950441852211952,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        1.654052734375,
+        161.71954345703125,
+        148.29833984375,
+        258.90045166015625
+      ],
+      "class_id": 43,
+      "confidence": 0.3594333529472351,
+      "class_name": "knife",
+      "lut_prior": 0.0,
+      "cos_sim": -0.0005506742745637894,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        24.27264404296875,
+        0.357269287109375,
+        637.0369262695312,
+        359.0
+      ],
+      "class_id": 60,
+      "confidence": 0.3232816457748413,
+      "class_name": "dining table",
+      "lut_prior": 0.0,
+      "cos_sim": -0.008992891758680344,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        461.14813232421875,
+        0.612335205078125,
+        553.1193237304688,
+        66.37802124023438
+      ],
+      "class_id": 41,
+      "confidence": 0.31860727071762085,
+      "class_name": "cup",
+      "lut_prior": 0.6903367638587952,
+      "cos_sim": -0.004598552361130714,
+      "tadop_score": 0.0,
+      "masked_out": false
+    }
+  ]
+}

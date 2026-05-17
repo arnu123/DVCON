@@ -1,0 +1,36 @@
+{
+  "image_id": "000000002587",
+  "image_path": "coco_images/val2017/000000002587.jpg",
+  "task_id_1based": 10,
+  "task_name": "serve_wine",
+  "orig_shape_hw": [
+    375,
+    500
+  ],
+  "num_raw_detections": 1,
+  "num_after_mask": 0,
+  "timing_ms": {
+    "yolo_inference": 47.71566390991211,
+    "roi_extraction": 0.087738037109375,
+    "scoring": 0.06508827209472656,
+    "tadop_overhead": 0.15282630920410156,
+    "total": 47.86849021911621
+  },
+  "ranked_detections": [
+    {
+      "bbox_xyxy": [
+        53.16934585571289,
+        91.1729736328125,
+        446.0732421875,
+        358.1321716308594
+      ],
+      "class_id": 46,
+      "confidence": 0.3748510777950287,
+      "class_name": "banana",
+      "lut_prior": 0.0,
+      "cos_sim": -0.004972640424966812,
+      "tadop_score": 0.0,
+      "masked_out": true
+    }
+  ]
+}

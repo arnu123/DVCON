@@ -1,0 +1,351 @@
+{
+  "image_id": "000000004134",
+  "image_path": "coco_images/val2017/000000004134.jpg",
+  "task_id_1based": 10,
+  "task_name": "serve_wine",
+  "orig_shape_hw": [
+    425,
+    640
+  ],
+  "num_raw_detections": 22,
+  "num_after_mask": 2,
+  "timing_ms": {
+    "yolo_inference": 45.52602767944336,
+    "roi_extraction": 0.2751350402832031,
+    "scoring": 0.16498565673828125,
+    "tadop_overhead": 0.4401206970214844,
+    "total": 45.966148376464844
+  },
+  "ranked_detections": [
+    {
+      "bbox_xyxy": [
+        209.0294189453125,
+        46.01611328125,
+        584.7128295898438,
+        423.7252197265625
+      ],
+      "class_id": 0,
+      "confidence": 0.9262902736663818,
+      "class_name": "person",
+      "lut_prior": 0.0,
+      "cos_sim": -0.02448374778032303,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        394.57281494140625,
+        190.42431640625,
+        433.67901611328125,
+        367.1351318359375
+      ],
+      "class_id": 27,
+      "confidence": 0.8999273777008057,
+      "class_name": "tie",
+      "lut_prior": 0.0,
+      "cos_sim": 0.002372847869992256,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        43.65411376953125,
+        42.05064392089844,
+        315.639892578125,
+        420.5584716796875
+      ],
+      "class_id": 0,
+      "confidence": 0.8153771758079529,
+      "class_name": "person",
+      "lut_prior": 0.0,
+      "cos_sim": -0.018459826707839966,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        470.84326171875,
+        111.17666625976562,
+        523.7783203125,
+        177.3138427734375
+      ],
+      "class_id": 0,
+      "confidence": 0.7999475598335266,
+      "class_name": "person",
+      "lut_prior": 0.0,
+      "cos_sim": -0.016212619841098785,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        2.0096359252929688,
+        112.75645446777344,
+        74.98101806640625,
+        261.4864501953125
+      ],
+      "class_id": 0,
+      "confidence": 0.7939397692680359,
+      "class_name": "person",
+      "lut_prior": 0.0,
+      "cos_sim": -0.03397640958428383,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        188.1043243408203,
+        128.73231506347656,
+        230.14488220214844,
+        253.9256591796875
+      ],
+      "class_id": 0,
+      "confidence": 0.7514628767967224,
+      "class_name": "person",
+      "lut_prior": 0.0,
+      "cos_sim": -0.0175470057874918,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        298.4249267578125,
+        123.91363525390625,
+        336.8311767578125,
+        269.652099609375
+      ],
+      "class_id": 0,
+      "confidence": 0.7072601914405823,
+      "class_name": "person",
+      "lut_prior": 0.0,
+      "cos_sim": -0.023764492943882942,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        574.563232421875,
+        105.55718994140625,
+        638.9873046875,
+        241.457763671875
+      ],
+      "class_id": 0,
+      "confidence": 0.670581042766571,
+      "class_name": "person",
+      "lut_prior": 0.0,
+      "cos_sim": -0.01491667702794075,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        238.09927368164062,
+        129.6185760498047,
+        275.4205017089844,
+        205.86016845703125
+      ],
+      "class_id": 0,
+      "confidence": 0.6275367140769958,
+      "class_name": "person",
+      "lut_prior": 0.0,
+      "cos_sim": -0.024952087551355362,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        578.18701171875,
+        148.07403564453125,
+        639.8681640625,
+        421.45849609375
+      ],
+      "class_id": 0,
+      "confidence": 0.6039578318595886,
+      "class_name": "person",
+      "lut_prior": 0.0,
+      "cos_sim": -0.021406088024377823,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        67.49757385253906,
+        127.97499084472656,
+        99.97602844238281,
+        203.9708251953125
+      ],
+      "class_id": 0,
+      "confidence": 0.568292498588562,
+      "class_name": "person",
+      "lut_prior": 0.0,
+      "cos_sim": -0.017004504799842834,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        221.16287231445312,
+        241.8946533203125,
+        236.02713012695312,
+        263.287109375
+      ],
+      "class_id": 40,
+      "confidence": 0.5360327363014221,
+      "class_name": "wine glass",
+      "lut_prior": 0.9106699824333191,
+      "cos_sim": -0.030952777713537216,
+      "tadop_score": 0.0,
+      "masked_out": false
+    },
+    {
+      "bbox_xyxy": [
+        227.19752502441406,
+        202.39431762695312,
+        287.1951904296875,
+        254.55575561523438
+      ],
+      "class_id": 60,
+      "confidence": 0.424248069524765,
+      "class_name": "dining table",
+      "lut_prior": 0.0,
+      "cos_sim": -0.037978194653987885,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        0.0,
+        254.670166015625,
+        53.934181213378906,
+        379.80126953125
+      ],
+      "class_id": 60,
+      "confidence": 0.4175662100315094,
+      "class_name": "dining table",
+      "lut_prior": 0.0,
+      "cos_sim": -0.014215892180800438,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        546.9682006835938,
+        141.32574462890625,
+        580.3391723632812,
+        193.60699462890625
+      ],
+      "class_id": 0,
+      "confidence": 0.4149068295955658,
+      "class_name": "person",
+      "lut_prior": 0.0,
+      "cos_sim": -0.02090180478990078,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        228.5858154296875,
+        204.69500732421875,
+        287.539306640625,
+        227.98382568359375
+      ],
+      "class_id": 60,
+      "confidence": 0.3813934326171875,
+      "class_name": "dining table",
+      "lut_prior": 0.0,
+      "cos_sim": -0.012819889932870865,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        347.66253662109375,
+        138.5852813720703,
+        374.5372314453125,
+        198.60418701171875
+      ],
+      "class_id": 0,
+      "confidence": 0.3562995493412018,
+      "class_name": "person",
+      "lut_prior": 0.0,
+      "cos_sim": -0.015954867005348206,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        20.498302459716797,
+        245.8553466796875,
+        36.676944732666016,
+        267.05560302734375
+      ],
+      "class_id": 41,
+      "confidence": 0.35501644015312195,
+      "class_name": "cup",
+      "lut_prior": 0.6903367638587952,
+      "cos_sim": -0.019032012671232224,
+      "tadop_score": 0.0,
+      "masked_out": false
+    },
+    {
+      "bbox_xyxy": [
+        257.8111572265625,
+        183.40625,
+        309.5523681640625,
+        270.23583984375
+      ],
+      "class_id": 0,
+      "confidence": 0.3465573489665985,
+      "class_name": "person",
+      "lut_prior": 0.0,
+      "cos_sim": -0.03301578760147095,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        516.1094360351562,
+        139.44869995117188,
+        537.3626098632812,
+        180.40548706054688
+      ],
+      "class_id": 0,
+      "confidence": 0.29798033833503723,
+      "class_name": "person",
+      "lut_prior": 0.0,
+      "cos_sim": -0.05038168281316757,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        365.70025634765625,
+        145.21755981445312,
+        399.44818115234375,
+        189.06790161132812
+      ],
+      "class_id": 0,
+      "confidence": 0.28555864095687866,
+      "class_name": "person",
+      "lut_prior": 0.0,
+      "cos_sim": -0.02407032996416092,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        586.6649169921875,
+        202.995361328125,
+        618.0272216796875,
+        239.581787109375
+      ],
+      "class_id": 63,
+      "confidence": 0.26315686106681824,
+      "class_name": "laptop",
+      "lut_prior": 0.0,
+      "cos_sim": -0.024608436971902847,
+      "tadop_score": 0.0,
+      "masked_out": true
+    }
+  ]
+}

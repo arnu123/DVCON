@@ -1,0 +1,81 @@
+{
+  "image_id": "000000008211",
+  "image_path": "coco_images/val2017/000000008211.jpg",
+  "task_id_1based": 10,
+  "task_name": "serve_wine",
+  "orig_shape_hw": [
+    459,
+    640
+  ],
+  "num_raw_detections": 4,
+  "num_after_mask": 0,
+  "timing_ms": {
+    "yolo_inference": 47.8971004486084,
+    "roi_extraction": 0.11706352233886719,
+    "scoring": 0.06985664367675781,
+    "tadop_overhead": 0.186920166015625,
+    "total": 48.08402061462402
+  },
+  "ranked_detections": [
+    {
+      "bbox_xyxy": [
+        325.1562805175781,
+        202.53302001953125,
+        406.1089782714844,
+        350.48455810546875
+      ],
+      "class_id": 0,
+      "confidence": 0.8900464773178101,
+      "class_name": "person",
+      "lut_prior": 0.0,
+      "cos_sim": -0.026587070897221565,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        414.741455078125,
+        183.2708740234375,
+        479.5430908203125,
+        346.93670654296875
+      ],
+      "class_id": 0,
+      "confidence": 0.8743094205856323,
+      "class_name": "person",
+      "lut_prior": 0.0,
+      "cos_sim": -0.02038545347750187,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        7.140625,
+        166.36322021484375,
+        263.2127685546875,
+        312.21136474609375
+      ],
+      "class_id": 3,
+      "confidence": 0.7984491586685181,
+      "class_name": "motorcycle",
+      "lut_prior": 0.0,
+      "cos_sim": -0.026587417349219322,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        477.67547607421875,
+        253.94808959960938,
+        540.5751342773438,
+        354.2691955566406
+      ],
+      "class_id": 26,
+      "confidence": 0.36942118406295776,
+      "class_name": "handbag",
+      "lut_prior": 0.0,
+      "cos_sim": -0.0024679554626345634,
+      "tadop_score": 0.0,
+      "masked_out": true
+    }
+  ]
+}

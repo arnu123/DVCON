@@ -1,0 +1,81 @@
+{
+  "image_id": "000000001993",
+  "image_path": "coco_images/val2017/000000001993.jpg",
+  "task_id_1based": 10,
+  "task_name": "serve_wine",
+  "orig_shape_hw": [
+    419,
+    640
+  ],
+  "num_raw_detections": 4,
+  "num_after_mask": 0,
+  "timing_ms": {
+    "yolo_inference": 45.49884796142578,
+    "roi_extraction": 0.15091896057128906,
+    "scoring": 0.0782012939453125,
+    "tadop_overhead": 0.22912025451660156,
+    "total": 45.72796821594238
+  },
+  "ranked_detections": [
+    {
+      "bbox_xyxy": [
+        260.60577392578125,
+        193.339111328125,
+        613.9126586914062,
+        413.2794189453125
+      ],
+      "class_id": 59,
+      "confidence": 0.9496779441833496,
+      "class_name": "bed",
+      "lut_prior": 0.0,
+      "cos_sim": -0.014491735957562923,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        110.12432098388672,
+        247.5478515625,
+        228.06109619140625,
+        414.2591552734375
+      ],
+      "class_id": 56,
+      "confidence": 0.8536152839660645,
+      "class_name": "chair",
+      "lut_prior": 0.0012360939290374517,
+      "cos_sim": -0.04006613790988922,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        0.0,
+        248.8212890625,
+        155.45855712890625,
+        413.8797607421875
+      ],
+      "class_id": 60,
+      "confidence": 0.7426055073738098,
+      "class_name": "dining table",
+      "lut_prior": 0.0,
+      "cos_sim": -0.05011703819036484,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        0.619232177734375,
+        249.17254638671875,
+        153.98916625976562,
+        296.51959228515625
+      ],
+      "class_id": 60,
+      "confidence": 0.37468191981315613,
+      "class_name": "dining table",
+      "lut_prior": 0.0,
+      "cos_sim": -0.048971131443977356,
+      "tadop_score": 0.0,
+      "masked_out": true
+    }
+  ]
+}

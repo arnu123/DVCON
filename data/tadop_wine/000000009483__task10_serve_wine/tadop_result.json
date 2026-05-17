@@ -1,0 +1,126 @@
+{
+  "image_id": "000000009483",
+  "image_path": "coco_images/val2017/000000009483.jpg",
+  "task_id_1based": 10,
+  "task_name": "serve_wine",
+  "orig_shape_hw": [
+    480,
+    640
+  ],
+  "num_raw_detections": 7,
+  "num_after_mask": 0,
+  "timing_ms": {
+    "yolo_inference": 47.72806167602539,
+    "roi_extraction": 0.15425682067871094,
+    "scoring": 0.06985664367675781,
+    "tadop_overhead": 0.22411346435546875,
+    "total": 47.95217514038086
+  },
+  "ranked_detections": [
+    {
+      "bbox_xyxy": [
+        38.14654541015625,
+        62.39239501953125,
+        176.56192016601562,
+        476.93878173828125
+      ],
+      "class_id": 0,
+      "confidence": 0.9380257725715637,
+      "class_name": "person",
+      "lut_prior": 0.0,
+      "cos_sim": -0.004837884567677975,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        304.5756530761719,
+        316.83905029296875,
+        423.7021179199219,
+        362.23504638671875
+      ],
+      "class_id": 66,
+      "confidence": 0.9151873588562012,
+      "class_name": "keyboard",
+      "lut_prior": 0.0,
+      "cos_sim": 0.010598156601190567,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        456.81414794921875,
+        212.33740234375,
+        579.0083618164062,
+        353.8748779296875
+      ],
+      "class_id": 62,
+      "confidence": 0.8235098123550415,
+      "class_name": "tv",
+      "lut_prior": 0.0,
+      "cos_sim": 0.004303203895688057,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        163.04254150390625,
+        257.44024658203125,
+        304.0592346191406,
+        337.04498291015625
+      ],
+      "class_id": 63,
+      "confidence": 0.7560620307922363,
+      "class_name": "laptop",
+      "lut_prior": 0.0,
+      "cos_sim": -0.0040185293182730675,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        375.58978271484375,
+        362.33966064453125,
+        408.03216552734375,
+        379.00531005859375
+      ],
+      "class_id": 64,
+      "confidence": 0.688100278377533,
+      "class_name": "mouse",
+      "lut_prior": 0.0,
+      "cos_sim": -0.005174468271434307,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        303.31817626953125,
+        73.67584228515625,
+        381.44012451171875,
+        236.69525146484375
+      ],
+      "class_id": 0,
+      "confidence": 0.39552727341651917,
+      "class_name": "person",
+      "lut_prior": 0.0,
+      "cos_sim": -0.005750330165028572,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        106.14401245117188,
+        143.57083129882812,
+        127.27935791015625,
+        208.30654907226562
+      ],
+      "class_id": 27,
+      "confidence": 0.2762731909751892,
+      "class_name": "tie",
+      "lut_prior": 0.0,
+      "cos_sim": 0.016775287687778473,
+      "tadop_score": 0.0,
+      "masked_out": true
+    }
+  ]
+}

@@ -1,0 +1,186 @@
+{
+  "image_id": "000000005193",
+  "image_path": "coco_images/val2017/000000005193.jpg",
+  "task_id_1based": 10,
+  "task_name": "serve_wine",
+  "orig_shape_hw": [
+    425,
+    640
+  ],
+  "num_raw_detections": 11,
+  "num_after_mask": 0,
+  "timing_ms": {
+    "yolo_inference": 47.74284362792969,
+    "roi_extraction": 0.24390220642089844,
+    "scoring": 0.07605552673339844,
+    "tadop_overhead": 0.3199577331542969,
+    "total": 48.062801361083984
+  },
+  "ranked_detections": [
+    {
+      "bbox_xyxy": [
+        0.1027984619140625,
+        85.80035400390625,
+        220.65716552734375,
+        421.1258544921875
+      ],
+      "class_id": 0,
+      "confidence": 0.9195590019226074,
+      "class_name": "person",
+      "lut_prior": 0.0,
+      "cos_sim": -0.011093313805758953,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        288.8789367675781,
+        172.2520751953125,
+        404.1488952636719,
+        404.12164306640625
+      ],
+      "class_id": 0,
+      "confidence": 0.8602246642112732,
+      "class_name": "person",
+      "lut_prior": 0.0,
+      "cos_sim": -0.01946755312383175,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        133.2398681640625,
+        113.59736633300781,
+        249.8377685546875,
+        421.42938232421875
+      ],
+      "class_id": 0,
+      "confidence": 0.8115988969802856,
+      "class_name": "person",
+      "lut_prior": 0.0,
+      "cos_sim": -0.017508769407868385,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        374.2718505859375,
+        97.83151245117188,
+        486.3671875,
+        285.2137756347656
+      ],
+      "class_id": 0,
+      "confidence": 0.7848449945449829,
+      "class_name": "person",
+      "lut_prior": 0.0,
+      "cos_sim": -0.01980837993323803,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        459.74835205078125,
+        74.70065307617188,
+        571.6190795898438,
+        339.1516418457031
+      ],
+      "class_id": 37,
+      "confidence": 0.7519617676734924,
+      "class_name": "surfboard",
+      "lut_prior": 0.0,
+      "cos_sim": -0.02748352661728859,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        223.31472778320312,
+        64.03521728515625,
+        262.35089111328125,
+        192.28558349609375
+      ],
+      "class_id": 0,
+      "confidence": 0.7214876413345337,
+      "class_name": "person",
+      "lut_prior": 0.0,
+      "cos_sim": -0.013839924708008766,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        242.54446411132812,
+        63.70845031738281,
+        346.1648254394531,
+        411.81646728515625
+      ],
+      "class_id": 37,
+      "confidence": 0.7132363319396973,
+      "class_name": "surfboard",
+      "lut_prior": 0.0,
+      "cos_sim": -0.008782763034105301,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        363.465087890625,
+        220.56085205078125,
+        484.1180419921875,
+        374.30279541015625
+      ],
+      "class_id": 0,
+      "confidence": 0.7076773643493652,
+      "class_name": "person",
+      "lut_prior": 0.0,
+      "cos_sim": -0.028215723112225533,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        72.75932312011719,
+        173.3173828125,
+        113.72785949707031,
+        200.700927734375
+      ],
+      "class_id": 67,
+      "confidence": 0.6478054523468018,
+      "class_name": "cell phone",
+      "lut_prior": 0.0,
+      "cos_sim": -0.036224693059921265,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        367.66339111328125,
+        97.4217529296875,
+        389.46868896484375,
+        169.43853759765625
+      ],
+      "class_id": 39,
+      "confidence": 0.6213120818138123,
+      "class_name": "bottle",
+      "lut_prior": 0.005571030545979738,
+      "cos_sim": -0.0190950408577919,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        292.588623046875,
+        292.08856201171875,
+        639.503662109375,
+        419.96209716796875
+      ],
+      "class_id": 37,
+      "confidence": 0.36914774775505066,
+      "class_name": "surfboard",
+      "lut_prior": 0.0,
+      "cos_sim": -0.026834620162844658,
+      "tadop_score": 0.0,
+      "masked_out": true
+    }
+  ]
+}

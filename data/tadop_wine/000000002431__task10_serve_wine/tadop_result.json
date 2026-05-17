@@ -1,0 +1,171 @@
+{
+  "image_id": "000000002431",
+  "image_path": "coco_images/val2017/000000002431.jpg",
+  "task_id_1based": 10,
+  "task_name": "serve_wine",
+  "orig_shape_hw": [
+    640,
+    457
+  ],
+  "num_raw_detections": 10,
+  "num_after_mask": 3,
+  "timing_ms": {
+    "yolo_inference": 48.750877380371094,
+    "roi_extraction": 0.2522468566894531,
+    "scoring": 0.07867813110351562,
+    "tadop_overhead": 0.33092498779296875,
+    "total": 49.08180236816406
+  },
+  "ranked_detections": [
+    {
+      "bbox_xyxy": [
+        355.99169921875,
+        414.90673828125,
+        456.926025390625,
+        636.9403076171875
+      ],
+      "class_id": 41,
+      "confidence": 0.3815173804759979,
+      "class_name": "cup",
+      "lut_prior": 0.6903367638587952,
+      "cos_sim": 0.006132280454039574,
+      "tadop_score": 0.001615092270018427,
+      "masked_out": false
+    },
+    {
+      "bbox_xyxy": [
+        305.4091796875,
+        0.0235443115234375,
+        430.6490478515625,
+        212.62896728515625
+      ],
+      "class_id": 40,
+      "confidence": 0.936753511428833,
+      "class_name": "wine glass",
+      "lut_prior": 0.9106699824333191,
+      "cos_sim": -0.008588039316236973,
+      "tadop_score": 0.0,
+      "masked_out": false
+    },
+    {
+      "bbox_xyxy": [
+        43.89910888671875,
+        376.0831298828125,
+        182.12274169921875,
+        466.50762939453125
+      ],
+      "class_id": 44,
+      "confidence": 0.9294305443763733,
+      "class_name": "spoon",
+      "lut_prior": 0.0,
+      "cos_sim": 0.005527017638087273,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        2.033447265625,
+        99.2320556640625,
+        457.0,
+        640.0
+      ],
+      "class_id": 60,
+      "confidence": 0.8338814973831177,
+      "class_name": "dining table",
+      "lut_prior": 0.0,
+      "cos_sim": -0.00788986124098301,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        105.45863342285156,
+        0.2144927978515625,
+        333.372314453125,
+        121.09738159179688
+      ],
+      "class_id": 0,
+      "confidence": 0.7455112934112549,
+      "class_name": "person",
+      "lut_prior": 0.0,
+      "cos_sim": -0.0034830253571271896,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        180.42449951171875,
+        116.6132583618164,
+        245.55438232421875,
+        194.20700073242188
+      ],
+      "class_id": 43,
+      "confidence": 0.511874794960022,
+      "class_name": "knife",
+      "lut_prior": 0.0,
+      "cos_sim": -0.012130871415138245,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        186.2447509765625,
+        394.0710144042969,
+        383.9442138671875,
+        637.847412109375
+      ],
+      "class_id": 41,
+      "confidence": 0.3595333695411682,
+      "class_name": "cup",
+      "lut_prior": 0.6903367638587952,
+      "cos_sim": -0.0026136189699172974,
+      "tadop_score": 0.0,
+      "masked_out": false
+    },
+    {
+      "bbox_xyxy": [
+        105.67132568359375,
+        392.98492431640625,
+        227.83502197265625,
+        563.0057373046875
+      ],
+      "class_id": 45,
+      "confidence": 0.3208615779876709,
+      "class_name": "bowl",
+      "lut_prior": 0.022284122183918953,
+      "cos_sim": 0.0016125645488500595,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        80.07748413085938,
+        0.7837371826171875,
+        145.92324829101562,
+        123.38027954101562
+      ],
+      "class_id": 56,
+      "confidence": 0.31342315673828125,
+      "class_name": "chair",
+      "lut_prior": 0.0012360939290374517,
+      "cos_sim": -0.026941444724798203,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        0.2291107177734375,
+        0.0,
+        79.57402038574219,
+        132.1782684326172
+      ],
+      "class_id": 56,
+      "confidence": 0.28324052691459656,
+      "class_name": "chair",
+      "lut_prior": 0.0012360939290374517,
+      "cos_sim": -0.03368820622563362,
+      "tadop_score": 0.0,
+      "masked_out": true
+    }
+  ]
+}

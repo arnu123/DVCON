@@ -1,0 +1,96 @@
+{
+  "image_id": "000000007511",
+  "image_path": "coco_images/val2017/000000007511.jpg",
+  "task_id_1based": 10,
+  "task_name": "serve_wine",
+  "orig_shape_hw": [
+    480,
+    640
+  ],
+  "num_raw_detections": 5,
+  "num_after_mask": 0,
+  "timing_ms": {
+    "yolo_inference": 52.2308349609375,
+    "roi_extraction": 0.12278556823730469,
+    "scoring": 0.0782012939453125,
+    "tadop_overhead": 0.2009868621826172,
+    "total": 52.43182182312012
+  },
+  "ranked_detections": [
+    {
+      "bbox_xyxy": [
+        376.21588134765625,
+        240.8360595703125,
+        507.88690185546875,
+        478.3126220703125
+      ],
+      "class_id": 0,
+      "confidence": 0.9332427978515625,
+      "class_name": "person",
+      "lut_prior": 0.0,
+      "cos_sim": -0.016865408048033714,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        203.60580444335938,
+        124.84249877929688,
+        222.74020385742188,
+        161.16268920898438
+      ],
+      "class_id": 33,
+      "confidence": 0.7822976112365723,
+      "class_name": "kite",
+      "lut_prior": 0.0,
+      "cos_sim": -0.008871693164110184,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        238.02340698242188,
+        282.14935302734375,
+        248.81344604492188,
+        306.67962646484375
+      ],
+      "class_id": 0,
+      "confidence": 0.7289279699325562,
+      "class_name": "person",
+      "lut_prior": 0.0,
+      "cos_sim": -0.017235901206731796,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        270.7067565917969,
+        272.301513671875,
+        282.3096008300781,
+        302.27294921875
+      ],
+      "class_id": 0,
+      "confidence": 0.7108504772186279,
+      "class_name": "person",
+      "lut_prior": 0.0,
+      "cos_sim": -0.03916607424616814,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        607.915771484375,
+        390.62005615234375,
+        639.7529296875,
+        422.917236328125
+      ],
+      "class_id": 24,
+      "confidence": 0.372653990983963,
+      "class_name": "backpack",
+      "lut_prior": 0.0,
+      "cos_sim": -0.04110357165336609,
+      "tadop_score": 0.0,
+      "masked_out": true
+    }
+  ]
+}

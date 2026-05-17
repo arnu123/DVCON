@@ -1,0 +1,81 @@
+{
+  "image_id": "000000009891",
+  "image_path": "coco_images/val2017/000000009891.jpg",
+  "task_id_1based": 10,
+  "task_name": "serve_wine",
+  "orig_shape_hw": [
+    480,
+    640
+  ],
+  "num_raw_detections": 4,
+  "num_after_mask": 0,
+  "timing_ms": {
+    "yolo_inference": 43.730735778808594,
+    "roi_extraction": 0.13494491577148438,
+    "scoring": 0.07128715515136719,
+    "tadop_overhead": 0.20623207092285156,
+    "total": 43.936967849731445
+  },
+  "ranked_detections": [
+    {
+      "bbox_xyxy": [
+        206.04710388183594,
+        94.48078918457031,
+        345.8704833984375,
+        419.99761962890625
+      ],
+      "class_id": 0,
+      "confidence": 0.9000353217124939,
+      "class_name": "person",
+      "lut_prior": 0.0,
+      "cos_sim": -0.008550198748707771,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        76.07852172851562,
+        99.6085205078125,
+        202.57177734375,
+        289.69134521484375
+      ],
+      "class_id": 0,
+      "confidence": 0.829898476600647,
+      "class_name": "person",
+      "lut_prior": 0.0,
+      "cos_sim": -0.02612166479229927,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        158.4136962890625,
+        242.34295654296875,
+        309.38787841796875,
+        401.78900146484375
+      ],
+      "class_id": 28,
+      "confidence": 0.5520877838134766,
+      "class_name": "suitcase",
+      "lut_prior": 0.0,
+      "cos_sim": -0.021556315943598747,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        352.91741943359375,
+        90.01091003417969,
+        639.16845703125,
+        308.91778564453125
+      ],
+      "class_id": 2,
+      "confidence": 0.5243788957595825,
+      "class_name": "car",
+      "lut_prior": 0.0,
+      "cos_sim": -0.013411031104624271,
+      "tadop_score": 0.0,
+      "masked_out": true
+    }
+  ]
+}

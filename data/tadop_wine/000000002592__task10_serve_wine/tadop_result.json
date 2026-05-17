@@ -1,0 +1,51 @@
+{
+  "image_id": "000000002592",
+  "image_path": "coco_images/val2017/000000002592.jpg",
+  "task_id_1based": 10,
+  "task_name": "serve_wine",
+  "orig_shape_hw": [
+    366,
+    640
+  ],
+  "num_raw_detections": 2,
+  "num_after_mask": 1,
+  "timing_ms": {
+    "yolo_inference": 47.64580726623535,
+    "roi_extraction": 0.09894371032714844,
+    "scoring": 0.06508827209472656,
+    "tadop_overhead": 0.164031982421875,
+    "total": 47.80983924865723
+  },
+  "ranked_detections": [
+    {
+      "bbox_xyxy": [
+        223.0175323486328,
+        32.776092529296875,
+        432.73211669921875,
+        241.76693725585938
+      ],
+      "class_id": 41,
+      "confidence": 0.928776204586029,
+      "class_name": "cup",
+      "lut_prior": 0.6903367638587952,
+      "cos_sim": -0.031717896461486816,
+      "tadop_score": 0.0,
+      "masked_out": false
+    },
+    {
+      "bbox_xyxy": [
+        28.712158203125,
+        221.5404052734375,
+        628.809326171875,
+        315.867919921875
+      ],
+      "class_id": 43,
+      "confidence": 0.25129434466362,
+      "class_name": "knife",
+      "lut_prior": 0.0,
+      "cos_sim": -0.07355057448148727,
+      "tadop_score": 0.0,
+      "masked_out": true
+    }
+  ]
+}

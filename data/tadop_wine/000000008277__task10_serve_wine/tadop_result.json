@@ -1,0 +1,96 @@
+{
+  "image_id": "000000008277",
+  "image_path": "coco_images/val2017/000000008277.jpg",
+  "task_id_1based": 10,
+  "task_name": "serve_wine",
+  "orig_shape_hw": [
+    612,
+    612
+  ],
+  "num_raw_detections": 5,
+  "num_after_mask": 0,
+  "timing_ms": {
+    "yolo_inference": 47.3482608795166,
+    "roi_extraction": 0.22912025451660156,
+    "scoring": 0.07510185241699219,
+    "tadop_overhead": 0.30422210693359375,
+    "total": 47.652482986450195
+  },
+  "ranked_detections": [
+    {
+      "bbox_xyxy": [
+        27.555103302001953,
+        40.00360107421875,
+        461.5838928222656,
+        357.2204284667969
+      ],
+      "class_id": 45,
+      "confidence": 0.47674691677093506,
+      "class_name": "bowl",
+      "lut_prior": 0.022284122183918953,
+      "cos_sim": -0.015839671716094017,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        396.18157958984375,
+        114.497314453125,
+        612.0,
+        387.0625305175781
+      ],
+      "class_id": 42,
+      "confidence": 0.32405775785446167,
+      "class_name": "fork",
+      "lut_prior": 0.0,
+      "cos_sim": 0.01212946604937315,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        6.715928077697754,
+        20.015121459960938,
+        610.5122680664062,
+        607.4515380859375
+      ],
+      "class_id": 60,
+      "confidence": 0.3234128952026367,
+      "class_name": "dining table",
+      "lut_prior": 0.0,
+      "cos_sim": -0.0031285956501960754,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        219.60757446289062,
+        99.53695678710938,
+        385.6972961425781,
+        259.338134765625
+      ],
+      "class_id": 50,
+      "confidence": 0.2969544231891632,
+      "class_name": "broccoli",
+      "lut_prior": 0.0,
+      "cos_sim": -0.004263985902070999,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        0.0,
+        20.524295806884766,
+        611.2850952148438,
+        609.658203125
+      ],
+      "class_id": 45,
+      "confidence": 0.27436596155166626,
+      "class_name": "bowl",
+      "lut_prior": 0.022284122183918953,
+      "cos_sim": -0.0031285956501960754,
+      "tadop_score": 0.0,
+      "masked_out": true
+    }
+  ]
+}

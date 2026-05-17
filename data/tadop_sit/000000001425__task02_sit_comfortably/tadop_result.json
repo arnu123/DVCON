@@ -1,0 +1,51 @@
+{
+  "image_id": "000000001425",
+  "image_path": "coco_images/val2017/000000001425.jpg",
+  "task_id_1based": 2,
+  "task_name": "sit_comfortably",
+  "orig_shape_hw": [
+    512,
+    640
+  ],
+  "num_raw_detections": 2,
+  "num_after_mask": 0,
+  "timing_ms": {
+    "yolo_inference": 46.47493362426758,
+    "roi_extraction": 0.1049041748046875,
+    "scoring": 0.06914138793945312,
+    "tadop_overhead": 0.17404556274414062,
+    "total": 46.64897918701172
+  },
+  "ranked_detections": [
+    {
+      "bbox_xyxy": [
+        494.7408752441406,
+        200.16357421875,
+        639.6627197265625,
+        378.146484375
+      ],
+      "class_id": 45,
+      "confidence": 0.6278842687606812,
+      "class_name": "bowl",
+      "lut_prior": 0.0,
+      "cos_sim": 0.007566951680928469,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        66.01364135742188,
+        178.0871124267578,
+        440.00103759765625,
+        397.19146728515625
+      ],
+      "class_id": 55,
+      "confidence": 0.444075345993042,
+      "class_name": "cake",
+      "lut_prior": 0.0,
+      "cos_sim": 0.013109089806675911,
+      "tadop_score": 0.0,
+      "masked_out": true
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "image_id": "000000001532",
+  "image_path": "coco_images/val2017/000000001532.jpg",
+  "task_id_1based": 2,
+  "task_name": "sit_comfortably",
+  "orig_shape_hw": [
+    480,
+    640
+  ],
+  "num_raw_detections": 5,
+  "num_after_mask": 0,
+  "timing_ms": {
+    "yolo_inference": 43.958187103271484,
+    "roi_extraction": 0.11086463928222656,
+    "scoring": 0.06794929504394531,
+    "tadop_overhead": 0.17881393432617188,
+    "total": 44.137001037597656
+  },
+  "ranked_detections": [
+    {
+      "bbox_xyxy": [
+        0.0,
+        375.796142578125,
+        115.63294219970703,
+        477.41845703125
+      ],
+      "class_id": 2,
+      "confidence": 0.8752962946891785,
+      "class_name": "car",
+      "lut_prior": 0.009950248524546623,
+      "cos_sim": -0.0032041228841990232,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        103.34249877929688,
+        376.48052978515625,
+        182.79876708984375,
+        440.13824462890625
+      ],
+      "class_id": 7,
+      "confidence": 0.8054255843162537,
+      "class_name": "truck",
+      "lut_prior": 0.0,
+      "cos_sim": -0.002603704808279872,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        427.29656982421875,
+        399.20367431640625,
+        490.33843994140625,
+        452.92767333984375
+      ],
+      "class_id": 2,
+      "confidence": 0.8003937005996704,
+      "class_name": "car",
+      "lut_prior": 0.009950248524546623,
+      "cos_sim": -0.010556108318269253,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        223.78448486328125,
+        356.63232421875,
+        421.85540771484375,
+        477.5458984375
+      ],
+      "class_id": 2,
+      "confidence": 0.7835047245025635,
+      "class_name": "car",
+      "lut_prior": 0.009950248524546623,
+      "cos_sim": 0.0047284699976444244,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        200.67800903320312,
+        401.59381103515625,
+        243.99783325195312,
+        428.08343505859375
+      ],
+      "class_id": 2,
+      "confidence": 0.5979722738265991,
+      "class_name": "car",
+      "lut_prior": 0.009950248524546623,
+      "cos_sim": -0.0017066565342247486,
+      "tadop_score": 0.0,
+      "masked_out": true
+    }
+  ]
+}

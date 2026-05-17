@@ -1,0 +1,9 @@
+{
+  "task_id_1based": 10,
+  "task_name": "serve_wine",
+  "num_images": 100,
+  "mean_raw_detections": 5.27,
+  "mean_after_mask": 0.21,
+  "mean_total_latency_ms": 47.96424627304077,
+  "mean_tadop_overhead_ms": 0.23298263549804688
+}

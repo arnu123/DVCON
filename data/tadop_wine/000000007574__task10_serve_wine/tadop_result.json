@@ -1,0 +1,171 @@
+{
+  "image_id": "000000007574",
+  "image_path": "coco_images/val2017/000000007574.jpg",
+  "task_id_1based": 10,
+  "task_name": "serve_wine",
+  "orig_shape_hw": [
+    480,
+    640
+  ],
+  "num_raw_detections": 10,
+  "num_after_mask": 0,
+  "timing_ms": {
+    "yolo_inference": 48.30503463745117,
+    "roi_extraction": 0.2658367156982422,
+    "scoring": 0.08130073547363281,
+    "tadop_overhead": 0.347137451171875,
+    "total": 48.65217208862305
+  },
+  "ranked_detections": [
+    {
+      "bbox_xyxy": [
+        0.0,
+        166.3143310546875,
+        102.688232421875,
+        436.72088623046875
+      ],
+      "class_id": 72,
+      "confidence": 0.9310247302055359,
+      "class_name": "refrigerator",
+      "lut_prior": 0.0,
+      "cos_sim": -0.03180287033319473,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        499.75042724609375,
+        306.572021484375,
+        533.2346801757812,
+        387.8597412109375
+      ],
+      "class_id": 39,
+      "confidence": 0.7089992165565491,
+      "class_name": "bottle",
+      "lut_prior": 0.005571030545979738,
+      "cos_sim": -0.015755068510770798,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        477.64556884765625,
+        298.30303955078125,
+        509.44964599609375,
+        379.30780029296875
+      ],
+      "class_id": 39,
+      "confidence": 0.5711725354194641,
+      "class_name": "bottle",
+      "lut_prior": 0.005571030545979738,
+      "cos_sim": -0.02277274802327156,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        104.70396423339844,
+        68.320068359375,
+        150.0072784423828,
+        88.9112548828125
+      ],
+      "class_id": 45,
+      "confidence": 0.3984352946281433,
+      "class_name": "bowl",
+      "lut_prior": 0.022284122183918953,
+      "cos_sim": -0.004025370813906193,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        271.54058837890625,
+        83.33125305175781,
+        306.03338623046875,
+        95.09049987792969
+      ],
+      "class_id": 45,
+      "confidence": 0.3945382237434387,
+      "class_name": "bowl",
+      "lut_prior": 0.022284122183918953,
+      "cos_sim": -0.009364902973175049,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        37.749237060546875,
+        362.30523681640625,
+        362.0985107421875,
+        474.04180908203125
+      ],
+      "class_id": 71,
+      "confidence": 0.38545897603034973,
+      "class_name": "sink",
+      "lut_prior": 0.0,
+      "cos_sim": -0.03603420779109001,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        204.5208282470703,
+        55.91947937011719,
+        231.6909637451172,
+        92.50511169433594
+      ],
+      "class_id": 75,
+      "confidence": 0.37293362617492676,
+      "class_name": "vase",
+      "lut_prior": 0.021929824724793434,
+      "cos_sim": -0.0169270820915699,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        293.6966247558594,
+        295.541259765625,
+        345.2793273925781,
+        388.1795654296875
+      ],
+      "class_id": 39,
+      "confidence": 0.33561691641807556,
+      "class_name": "bottle",
+      "lut_prior": 0.005571030545979738,
+      "cos_sim": 0.00023639015853405,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        304.69061279296875,
+        143.97714233398438,
+        372.36883544921875,
+        233.68453979492188
+      ],
+      "class_id": 68,
+      "confidence": 0.3019125461578369,
+      "class_name": "microwave",
+      "lut_prior": 0.0,
+      "cos_sim": -0.03935740888118744,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        185.51272583007812,
+        354.80303955078125,
+        305.9815673828125,
+        409.08160400390625
+      ],
+      "class_id": 71,
+      "confidence": 0.2883094251155853,
+      "class_name": "sink",
+      "lut_prior": 0.0,
+      "cos_sim": -0.044597968459129333,
+      "tadop_score": 0.0,
+      "masked_out": true
+    }
+  ]
+}

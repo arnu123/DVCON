@@ -1,0 +1,126 @@
+{
+  "image_id": "000000005037",
+  "image_path": "coco_images/val2017/000000005037.jpg",
+  "task_id_1based": 10,
+  "task_name": "serve_wine",
+  "orig_shape_hw": [
+    425,
+    640
+  ],
+  "num_raw_detections": 7,
+  "num_after_mask": 0,
+  "timing_ms": {
+    "yolo_inference": 45.042991638183594,
+    "roi_extraction": 0.12183189392089844,
+    "scoring": 0.07009506225585938,
+    "tadop_overhead": 0.1919269561767578,
+    "total": 45.23491859436035
+  },
+  "ranked_detections": [
+    {
+      "bbox_xyxy": [
+        98.14436340332031,
+        22.381362915039062,
+        577.3215942382812,
+        373.91845703125
+      ],
+      "class_id": 5,
+      "confidence": 0.9365882873535156,
+      "class_name": "bus",
+      "lut_prior": 0.0,
+      "cos_sim": -0.033051520586013794,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        623.9266357421875,
+        215.287353515625,
+        639.8336181640625,
+        360.49462890625
+      ],
+      "class_id": 0,
+      "confidence": 0.6105996370315552,
+      "class_name": "person",
+      "lut_prior": 0.0,
+      "cos_sim": -0.015794485807418823,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        572.249267578125,
+        249.33306884765625,
+        600.082275390625,
+        267.66461181640625
+      ],
+      "class_id": 2,
+      "confidence": 0.43818268179893494,
+      "class_name": "car",
+      "lut_prior": 0.0,
+      "cos_sim": -0.02654789760708809,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        596.2066040039062,
+        249.27392578125,
+        619.7101440429688,
+        270.33221435546875
+      ],
+      "class_id": 2,
+      "confidence": 0.3497825562953949,
+      "class_name": "car",
+      "lut_prior": 0.0,
+      "cos_sim": -0.031005291268229485,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        9.099245071411133,
+        216.794677734375,
+        21.7170352935791,
+        245.23193359375
+      ],
+      "class_id": 0,
+      "confidence": 0.31334418058395386,
+      "class_name": "person",
+      "lut_prior": 0.0,
+      "cos_sim": -0.04195209592580795,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        610.6285400390625,
+        251.16256713867188,
+        623.7325439453125,
+        269.0249328613281
+      ],
+      "class_id": 2,
+      "confidence": 0.25740960240364075,
+      "class_name": "car",
+      "lut_prior": 0.0,
+      "cos_sim": -0.032665640115737915,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        28.957107543945312,
+        220.97283935546875,
+        43.08136749267578,
+        247.11602783203125
+      ],
+      "class_id": 0,
+      "confidence": 0.25662848353385925,
+      "class_name": "person",
+      "lut_prior": 0.0,
+      "cos_sim": -0.04794468358159065,
+      "tadop_score": 0.0,
+      "masked_out": true
+    }
+  ]
+}

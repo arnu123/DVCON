@@ -1,0 +1,81 @@
+{
+  "image_id": "000000004795",
+  "image_path": "coco_images/val2017/000000004795.jpg",
+  "task_id_1based": 10,
+  "task_name": "serve_wine",
+  "orig_shape_hw": [
+    480,
+    640
+  ],
+  "num_raw_detections": 4,
+  "num_after_mask": 0,
+  "timing_ms": {
+    "yolo_inference": 46.236276626586914,
+    "roi_extraction": 0.18286705017089844,
+    "scoring": 0.07224082946777344,
+    "tadop_overhead": 0.2551078796386719,
+    "total": 46.491384506225586
+  },
+  "ranked_detections": [
+    {
+      "bbox_xyxy": [
+        161.42864990234375,
+        122.41828918457031,
+        553.640380859375,
+        476.34979248046875
+      ],
+      "class_id": 15,
+      "confidence": 0.8946107029914856,
+      "class_name": "cat",
+      "lut_prior": 0.0,
+      "cos_sim": -0.005160769447684288,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        0.168487548828125,
+        189.40606689453125,
+        180.1412353515625,
+        476.11669921875
+      ],
+      "class_id": 63,
+      "confidence": 0.8445308208465576,
+      "class_name": "laptop",
+      "lut_prior": 0.0,
+      "cos_sim": -0.03632703796029091,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        14.03167724609375,
+        1.10205078125,
+        638.1083374023438,
+        475.83929443359375
+      ],
+      "class_id": 63,
+      "confidence": 0.5036473274230957,
+      "class_name": "laptop",
+      "lut_prior": 0.0,
+      "cos_sim": -0.01279053371399641,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        521.9913330078125,
+        259.32611083984375,
+        639.6842041015625,
+        412.31427001953125
+      ],
+      "class_id": 67,
+      "confidence": 0.3876495659351349,
+      "class_name": "cell phone",
+      "lut_prior": 0.0,
+      "cos_sim": 0.0075864652171730995,
+      "tadop_score": 0.0,
+      "masked_out": true
+    }
+  ]
+}

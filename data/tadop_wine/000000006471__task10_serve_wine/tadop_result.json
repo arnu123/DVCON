@@ -1,0 +1,201 @@
+{
+  "image_id": "000000006471",
+  "image_path": "coco_images/val2017/000000006471.jpg",
+  "task_id_1based": 10,
+  "task_name": "serve_wine",
+  "orig_shape_hw": [
+    333,
+    500
+  ],
+  "num_raw_detections": 12,
+  "num_after_mask": 0,
+  "timing_ms": {
+    "yolo_inference": 67.98005104064941,
+    "roi_extraction": 0.28896331787109375,
+    "scoring": 0.08320808410644531,
+    "tadop_overhead": 0.37217140197753906,
+    "total": 68.35222244262695
+  },
+  "ranked_detections": [
+    {
+      "bbox_xyxy": [
+        215.5537109375,
+        231.31800842285156,
+        242.02438354492188,
+        263.71728515625
+      ],
+      "class_id": 35,
+      "confidence": 0.9514540433883667,
+      "class_name": "baseball glove",
+      "lut_prior": 0.0,
+      "cos_sim": -0.03417419642210007,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        16.664779663085938,
+        141.2222442626953,
+        127.47407531738281,
+        323.1471252441406
+      ],
+      "class_id": 0,
+      "confidence": 0.9254985451698303,
+      "class_name": "person",
+      "lut_prior": 0.0,
+      "cos_sim": -0.022246845066547394,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        260.845947265625,
+        74.81962585449219,
+        353.46612548828125,
+        298.69677734375
+      ],
+      "class_id": 0,
+      "confidence": 0.9179757833480835,
+      "class_name": "person",
+      "lut_prior": 0.0,
+      "cos_sim": -0.017901046201586723,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        86.36416625976562,
+        187.8703155517578,
+        241.40162658691406,
+        324.29510498046875
+      ],
+      "class_id": 0,
+      "confidence": 0.90845787525177,
+      "class_name": "person",
+      "lut_prior": 0.0,
+      "cos_sim": -0.01881924644112587,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        166.14820861816406,
+        73.2158203125,
+        223.49264526367188,
+        133.23020935058594
+      ],
+      "class_id": 0,
+      "confidence": 0.7063797116279602,
+      "class_name": "person",
+      "lut_prior": 0.0,
+      "cos_sim": -0.03372235968708992,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        82.45679473876953,
+        72.20089721679688,
+        155.45413208007812,
+        141.2418670654297
+      ],
+      "class_id": 0,
+      "confidence": 0.6916278600692749,
+      "class_name": "person",
+      "lut_prior": 0.0,
+      "cos_sim": -0.02398352324962616,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        212.70864868164062,
+        72.44198608398438,
+        263.23736572265625,
+        129.4701385498047
+      ],
+      "class_id": 0,
+      "confidence": 0.6640760898590088,
+      "class_name": "person",
+      "lut_prior": 0.0,
+      "cos_sim": -0.023207828402519226,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        302.32720947265625,
+        26.827836990356445,
+        365.16241455078125,
+        89.15229034423828
+      ],
+      "class_id": 34,
+      "confidence": 0.6555426120758057,
+      "class_name": "baseball bat",
+      "lut_prior": 0.0,
+      "cos_sim": -0.051082439720630646,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        382.163818359375,
+        58.53651809692383,
+        451.9291076660156,
+        113.41899871826172
+      ],
+      "class_id": 0,
+      "confidence": 0.5906729102134705,
+      "class_name": "person",
+      "lut_prior": 0.0,
+      "cos_sim": -0.03806079179048538,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        0.008283555507659912,
+        89.48381042480469,
+        21.003995895385742,
+        149.26321411132812
+      ],
+      "class_id": 0,
+      "confidence": 0.5125278830528259,
+      "class_name": "person",
+      "lut_prior": 0.0,
+      "cos_sim": -0.038283251225948334,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        23.579378128051758,
+        97.7943344116211,
+        70.37368774414062,
+        147.48440551757812
+      ],
+      "class_id": 0,
+      "confidence": 0.4916641116142273,
+      "class_name": "person",
+      "lut_prior": 0.0,
+      "cos_sim": -0.02743867225944996,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        49.37986373901367,
+        81.65948486328125,
+        79.53785705566406,
+        137.2339324951172
+      ],
+      "class_id": 0,
+      "confidence": 0.4508313536643982,
+      "class_name": "person",
+      "lut_prior": 0.0,
+      "cos_sim": -0.03761421516537666,
+      "tadop_score": 0.0,
+      "masked_out": true
+    }
+  ]
+}

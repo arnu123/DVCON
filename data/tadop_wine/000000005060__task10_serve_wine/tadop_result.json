@@ -1,0 +1,51 @@
+{
+  "image_id": "000000005060",
+  "image_path": "coco_images/val2017/000000005060.jpg",
+  "task_id_1based": 10,
+  "task_name": "serve_wine",
+  "orig_shape_hw": [
+    640,
+    480
+  ],
+  "num_raw_detections": 2,
+  "num_after_mask": 0,
+  "timing_ms": {
+    "yolo_inference": 48.027992248535156,
+    "roi_extraction": 0.07319450378417969,
+    "scoring": 0.06794929504394531,
+    "tadop_overhead": 0.141143798828125,
+    "total": 48.16913604736328
+  },
+  "ranked_detections": [
+    {
+      "bbox_xyxy": [
+        160.49737548828125,
+        307.62646484375,
+        296.69561767578125,
+        494.885498046875
+      ],
+      "class_id": 0,
+      "confidence": 0.7699987888336182,
+      "class_name": "person",
+      "lut_prior": 0.0,
+      "cos_sim": -0.008803808130323887,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        309.8457946777344,
+        451.33880615234375,
+        329.2668151855469,
+        481.12310791015625
+      ],
+      "class_id": 39,
+      "confidence": 0.28769680857658386,
+      "class_name": "bottle",
+      "lut_prior": 0.005571030545979738,
+      "cos_sim": -0.03686921298503876,
+      "tadop_score": 0.0,
+      "masked_out": true
+    }
+  ]
+}

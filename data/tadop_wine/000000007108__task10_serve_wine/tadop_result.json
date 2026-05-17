@@ -1,0 +1,96 @@
+{
+  "image_id": "000000007108",
+  "image_path": "coco_images/val2017/000000007108.jpg",
+  "task_id_1based": 10,
+  "task_name": "serve_wine",
+  "orig_shape_hw": [
+    426,
+    640
+  ],
+  "num_raw_detections": 5,
+  "num_after_mask": 0,
+  "timing_ms": {
+    "yolo_inference": 45.85695266723633,
+    "roi_extraction": 0.15163421630859375,
+    "scoring": 0.06914138793945312,
+    "tadop_overhead": 0.22077560424804688,
+    "total": 46.077728271484375
+  },
+  "ranked_detections": [
+    {
+      "bbox_xyxy": [
+        397.0877685546875,
+        78.86328125,
+        638.9486083984375,
+        421.4476318359375
+      ],
+      "class_id": 20,
+      "confidence": 0.9006842970848083,
+      "class_name": "elephant",
+      "lut_prior": 0.0,
+      "cos_sim": 0.01331691350787878,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        112.26174926757812,
+        27.095703125,
+        433.0038146972656,
+        421.329345703125
+      ],
+      "class_id": 20,
+      "confidence": 0.8197973370552063,
+      "class_name": "elephant",
+      "lut_prior": 0.0,
+      "cos_sim": 0.006507452577352524,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        339.47894287109375,
+        0.760223388671875,
+        501.63690185546875,
+        102.78335571289062
+      ],
+      "class_id": 20,
+      "confidence": 0.6404625177383423,
+      "class_name": "elephant",
+      "lut_prior": 0.0,
+      "cos_sim": 0.006517163477838039,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        569.0394897460938,
+        47.92449951171875,
+        639.6653442382812,
+        394.90618896484375
+      ],
+      "class_id": 20,
+      "confidence": 0.5439584851264954,
+      "class_name": "elephant",
+      "lut_prior": 0.0,
+      "cos_sim": 0.012558231130242348,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        568.281005859375,
+        49.181793212890625,
+        639.65966796875,
+        183.5108642578125
+      ],
+      "class_id": 20,
+      "confidence": 0.35856205224990845,
+      "class_name": "elephant",
+      "lut_prior": 0.0,
+      "cos_sim": 0.012362949550151825,
+      "tadop_score": 0.0,
+      "masked_out": true
+    }
+  ]
+}

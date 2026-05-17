@@ -1,0 +1,51 @@
+{
+  "image_id": "000000007977",
+  "image_path": "coco_images/val2017/000000007977.jpg",
+  "task_id_1based": 10,
+  "task_name": "serve_wine",
+  "orig_shape_hw": [
+    640,
+    429
+  ],
+  "num_raw_detections": 2,
+  "num_after_mask": 0,
+  "timing_ms": {
+    "yolo_inference": 47.08290100097656,
+    "roi_extraction": 0.09083747863769531,
+    "scoring": 0.06794929504394531,
+    "tadop_overhead": 0.15878677368164062,
+    "total": 47.2416877746582
+  },
+  "ranked_detections": [
+    {
+      "bbox_xyxy": [
+        78.66204833984375,
+        149.3746337890625,
+        264.0845947265625,
+        421.0556640625
+      ],
+      "class_id": 0,
+      "confidence": 0.8985432982444763,
+      "class_name": "person",
+      "lut_prior": 0.0,
+      "cos_sim": -0.022676441818475723,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        192.35589599609375,
+        344.51336669921875,
+        269.53814697265625,
+        426.62030029296875
+      ],
+      "class_id": 36,
+      "confidence": 0.7843616008758545,
+      "class_name": "skateboard",
+      "lut_prior": 0.0,
+      "cos_sim": -0.01764310710132122,
+      "tadop_score": 0.0,
+      "masked_out": true
+    }
+  ]
+}

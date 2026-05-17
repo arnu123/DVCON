@@ -1,0 +1,96 @@
+{
+  "image_id": "000000009772",
+  "image_path": "coco_images/val2017/000000009772.jpg",
+  "task_id_1based": 10,
+  "task_name": "serve_wine",
+  "orig_shape_hw": [
+    640,
+    550
+  ],
+  "num_raw_detections": 5,
+  "num_after_mask": 0,
+  "timing_ms": {
+    "yolo_inference": 46.01693153381348,
+    "roi_extraction": 0.11801719665527344,
+    "scoring": 0.07104873657226562,
+    "tadop_overhead": 0.18906593322753906,
+    "total": 46.205997467041016
+  },
+  "ranked_detections": [
+    {
+      "bbox_xyxy": [
+        423.23077392578125,
+        90.2762451171875,
+        517.1869506835938,
+        188.11846923828125
+      ],
+      "class_id": 62,
+      "confidence": 0.8154652714729309,
+      "class_name": "tv",
+      "lut_prior": 0.0,
+      "cos_sim": -0.050666604191064835,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        274.9860534667969,
+        230.70318603515625,
+        332.4435119628906,
+        354.01519775390625
+      ],
+      "class_id": 0,
+      "confidence": 0.8085429668426514,
+      "class_name": "person",
+      "lut_prior": 0.0,
+      "cos_sim": -0.03895450010895729,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        355.34112548828125,
+        341.2588806152344,
+        366.08209228515625,
+        381.6020812988281
+      ],
+      "class_id": 39,
+      "confidence": 0.5028405785560608,
+      "class_name": "bottle",
+      "lut_prior": 0.005571030545979738,
+      "cos_sim": -0.039651259779930115,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        327.4947509765625,
+        381.015869140625,
+        408.99053955078125,
+        398.885009765625
+      ],
+      "class_id": 71,
+      "confidence": 0.450714647769928,
+      "class_name": "sink",
+      "lut_prior": 0.0,
+      "cos_sim": -0.017897337675094604,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        177.36834716796875,
+        380.7547912597656,
+        254.53399658203125,
+        395.1973571777344
+      ],
+      "class_id": 71,
+      "confidence": 0.36498358845710754,
+      "class_name": "sink",
+      "lut_prior": 0.0,
+      "cos_sim": -0.033687230199575424,
+      "tadop_score": 0.0,
+      "masked_out": true
+    }
+  ]
+}

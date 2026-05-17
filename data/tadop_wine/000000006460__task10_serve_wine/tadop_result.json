@@ -1,0 +1,66 @@
+{
+  "image_id": "000000006460",
+  "image_path": "coco_images/val2017/000000006460.jpg",
+  "task_id_1based": 10,
+  "task_name": "serve_wine",
+  "orig_shape_hw": [
+    427,
+    640
+  ],
+  "num_raw_detections": 3,
+  "num_after_mask": 0,
+  "timing_ms": {
+    "yolo_inference": 47.41311073303223,
+    "roi_extraction": 0.08130073547363281,
+    "scoring": 0.06389617919921875,
+    "tadop_overhead": 0.14519691467285156,
+    "total": 47.55830764770508
+  },
+  "ranked_detections": [
+    {
+      "bbox_xyxy": [
+        277.26904296875,
+        138.59332275390625,
+        331.3760986328125,
+        211.132080078125
+      ],
+      "class_id": 0,
+      "confidence": 0.7620387673377991,
+      "class_name": "person",
+      "lut_prior": 0.0,
+      "cos_sim": -0.019792726263403893,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        274.24102783203125,
+        141.10238647460938,
+        287.63079833984375,
+        232.66647338867188
+      ],
+      "class_id": 37,
+      "confidence": 0.3161777853965759,
+      "class_name": "surfboard",
+      "lut_prior": 0.0,
+      "cos_sim": -0.0364207923412323,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        484.9252014160156,
+        9.97869873046875,
+        633.3919677734375,
+        130.89599609375
+      ],
+      "class_id": 3,
+      "confidence": 0.2570483982563019,
+      "class_name": "motorcycle",
+      "lut_prior": 0.0,
+      "cos_sim": -0.02386394701898098,
+      "tadop_score": 0.0,
+      "masked_out": true
+    }
+  ]
+}

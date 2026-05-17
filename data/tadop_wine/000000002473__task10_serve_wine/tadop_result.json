@@ -1,0 +1,96 @@
+{
+  "image_id": "000000002473",
+  "image_path": "coco_images/val2017/000000002473.jpg",
+  "task_id_1based": 10,
+  "task_name": "serve_wine",
+  "orig_shape_hw": [
+    427,
+    640
+  ],
+  "num_raw_detections": 5,
+  "num_after_mask": 0,
+  "timing_ms": {
+    "yolo_inference": 46.86713218688965,
+    "roi_extraction": 0.1220703125,
+    "scoring": 0.07414817810058594,
+    "tadop_overhead": 0.19621849060058594,
+    "total": 47.063350677490234
+  },
+  "ranked_detections": [
+    {
+      "bbox_xyxy": [
+        437.3232727050781,
+        279.7559814453125,
+        498.1399230957031,
+        382.00408935546875
+      ],
+      "class_id": 0,
+      "confidence": 0.8843238949775696,
+      "class_name": "person",
+      "lut_prior": 0.0,
+      "cos_sim": -0.032501593232154846,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        246.43603515625,
+        94.6683349609375,
+        371.5438232421875,
+        244.8851318359375
+      ],
+      "class_id": 0,
+      "confidence": 0.8646280765533447,
+      "class_name": "person",
+      "lut_prior": 0.0,
+      "cos_sim": -0.027583923190832138,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        118.07793426513672,
+        342.1297607421875,
+        146.01812744140625,
+        385.79296875
+      ],
+      "class_id": 0,
+      "confidence": 0.7423635721206665,
+      "class_name": "person",
+      "lut_prior": 0.0,
+      "cos_sim": -0.03301651030778885,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        31.114395141601562,
+        329.33990478515625,
+        59.517967224121094,
+        353.92547607421875
+      ],
+      "class_id": 0,
+      "confidence": 0.6405206322669983,
+      "class_name": "person",
+      "lut_prior": 0.0,
+      "cos_sim": -0.030717050656676292,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        285.5958251953125,
+        217.439453125,
+        327.905517578125,
+        264.26611328125
+      ],
+      "class_id": 30,
+      "confidence": 0.3948742747306824,
+      "class_name": "skis",
+      "lut_prior": 0.0,
+      "cos_sim": -0.02732101082801819,
+      "tadop_score": 0.0,
+      "masked_out": true
+    }
+  ]
+}

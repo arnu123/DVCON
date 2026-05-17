@@ -1,0 +1,51 @@
+{
+  "image_id": "000000001296",
+  "image_path": "coco_images/val2017/000000001296.jpg",
+  "task_id_1based": 2,
+  "task_name": "sit_comfortably",
+  "orig_shape_hw": [
+    640,
+    427
+  ],
+  "num_raw_detections": 2,
+  "num_after_mask": 0,
+  "timing_ms": {
+    "yolo_inference": 48.895835876464844,
+    "roi_extraction": 0.11491775512695312,
+    "scoring": 0.06604194641113281,
+    "tadop_overhead": 0.18095970153808594,
+    "total": 49.07679557800293
+  },
+  "ranked_detections": [
+    {
+      "bbox_xyxy": [
+        1.78778076171875,
+        21.98486328125,
+        422.0615234375,
+        639.7789306640625
+      ],
+      "class_id": 0,
+      "confidence": 0.8986229300498962,
+      "class_name": "person",
+      "lut_prior": 0.003289473708719015,
+      "cos_sim": -0.0058319661766290665,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        265.32586669921875,
+        20.938018798828125,
+        411.55609130859375,
+        321.8359680175781
+      ],
+      "class_id": 0,
+      "confidence": 0.28553831577301025,
+      "class_name": "person",
+      "lut_prior": 0.003289473708719015,
+      "cos_sim": -0.009732808917760849,
+      "tadop_score": 0.0,
+      "masked_out": true
+    }
+  ]
+}

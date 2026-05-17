@@ -1,0 +1,96 @@
+{
+  "image_id": "000000002149",
+  "image_path": "coco_images/val2017/000000002149.jpg",
+  "task_id_1based": 10,
+  "task_name": "serve_wine",
+  "orig_shape_hw": [
+    427,
+    640
+  ],
+  "num_raw_detections": 5,
+  "num_after_mask": 0,
+  "timing_ms": {
+    "yolo_inference": 44.69799995422363,
+    "roi_extraction": 0.1900196075439453,
+    "scoring": 0.064849853515625,
+    "tadop_overhead": 0.2548694610595703,
+    "total": 44.9528694152832
+  },
+  "ranked_detections": [
+    {
+      "bbox_xyxy": [
+        0.0,
+        237.05694580078125,
+        250.22906494140625,
+        397.89190673828125
+      ],
+      "class_id": 47,
+      "confidence": 0.6026265621185303,
+      "class_name": "apple",
+      "lut_prior": 0.0,
+      "cos_sim": -0.001473400741815567,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        335.8350830078125,
+        69.99099731445312,
+        585.6759033203125,
+        321.7591857910156
+      ],
+      "class_id": 47,
+      "confidence": 0.528195858001709,
+      "class_name": "apple",
+      "lut_prior": 0.0,
+      "cos_sim": 0.0015022531151771545,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        0.26663970947265625,
+        171.36322021484375,
+        83.93869018554688,
+        282.03240966796875
+      ],
+      "class_id": 46,
+      "confidence": 0.29915568232536316,
+      "class_name": "banana",
+      "lut_prior": 0.0,
+      "cos_sim": -0.03514527529478073,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        77.4232177734375,
+        71.75341796875,
+        340.08770751953125,
+        329.1107177734375
+      ],
+      "class_id": 47,
+      "confidence": 0.2894037067890167,
+      "class_name": "apple",
+      "lut_prior": 0.0,
+      "cos_sim": -8.682161569595337e-05,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        5.77655029296875,
+        65.19767761230469,
+        631.6053466796875,
+        401.91412353515625
+      ],
+      "class_id": 47,
+      "confidence": 0.28271183371543884,
+      "class_name": "apple",
+      "lut_prior": 0.0,
+      "cos_sim": -0.005279548466205597,
+      "tadop_score": 0.0,
+      "masked_out": true
+    }
+  ]
+}

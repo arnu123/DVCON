@@ -1,0 +1,51 @@
+{
+  "image_id": "000000000802",
+  "image_path": "coco_images/val2017/000000000802.jpg",
+  "task_id_1based": 2,
+  "task_name": "sit_comfortably",
+  "orig_shape_hw": [
+    640,
+    424
+  ],
+  "num_raw_detections": 2,
+  "num_after_mask": 0,
+  "timing_ms": {
+    "yolo_inference": 45.391082763671875,
+    "roi_extraction": 0.11587142944335938,
+    "scoring": 0.06818771362304688,
+    "tadop_overhead": 0.18405914306640625,
+    "total": 45.57514190673828
+  },
+  "ranked_detections": [
+    {
+      "bbox_xyxy": [
+        242.919921875,
+        189.2362060546875,
+        411.79644775390625,
+        533.7092895507812
+      ],
+      "class_id": 72,
+      "confidence": 0.9175606966018677,
+      "class_name": "refrigerator",
+      "lut_prior": 0.0,
+      "cos_sim": 0.008088920265436172,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        70.36688232421875,
+        286.8670654296875,
+        161.605224609375,
+        518.3310546875
+      ],
+      "class_id": 69,
+      "confidence": 0.552097499370575,
+      "class_name": "oven",
+      "lut_prior": 0.0,
+      "cos_sim": -0.009585699997842312,
+      "tadop_score": 0.0,
+      "masked_out": true
+    }
+  ]
+}

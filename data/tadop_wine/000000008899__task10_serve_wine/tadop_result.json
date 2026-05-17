@@ -1,0 +1,51 @@
+{
+  "image_id": "000000008899",
+  "image_path": "coco_images/val2017/000000008899.jpg",
+  "task_id_1based": 10,
+  "task_name": "serve_wine",
+  "orig_shape_hw": [
+    539,
+    640
+  ],
+  "num_raw_detections": 2,
+  "num_after_mask": 0,
+  "timing_ms": {
+    "yolo_inference": 47.139883041381836,
+    "roi_extraction": 0.06985664367675781,
+    "scoring": 0.06818771362304688,
+    "tadop_overhead": 0.1380443572998047,
+    "total": 47.27792739868164
+  },
+  "ranked_detections": [
+    {
+      "bbox_xyxy": [
+        140.27288818359375,
+        399.19122314453125,
+        183.16952514648438,
+        492.406005859375
+      ],
+      "class_id": 10,
+      "confidence": 0.8832992315292358,
+      "class_name": "fire hydrant",
+      "lut_prior": 0.0,
+      "cos_sim": -0.020184272900223732,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        0.17099761962890625,
+        352.8336181640625,
+        72.27251434326172,
+        457.3258056640625
+      ],
+      "class_id": 1,
+      "confidence": 0.4636143147945404,
+      "class_name": "bicycle",
+      "lut_prior": 0.0,
+      "cos_sim": -0.053347643464803696,
+      "tadop_score": 0.0,
+      "masked_out": true
+    }
+  ]
+}

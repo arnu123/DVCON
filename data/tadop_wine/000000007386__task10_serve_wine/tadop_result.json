@@ -1,0 +1,51 @@
+{
+  "image_id": "000000007386",
+  "image_path": "coco_images/val2017/000000007386.jpg",
+  "task_id_1based": 10,
+  "task_name": "serve_wine",
+  "orig_shape_hw": [
+    400,
+    600
+  ],
+  "num_raw_detections": 2,
+  "num_after_mask": 0,
+  "timing_ms": {
+    "yolo_inference": 46.07224464416504,
+    "roi_extraction": 0.10204315185546875,
+    "scoring": 0.06580352783203125,
+    "tadop_overhead": 0.1678466796875,
+    "total": 46.24009132385254
+  },
+  "ranked_detections": [
+    {
+      "bbox_xyxy": [
+        55.19118881225586,
+        10.637511253356934,
+        590.40869140625,
+        393.7276611328125
+      ],
+      "class_id": 3,
+      "confidence": 0.592540979385376,
+      "class_name": "motorcycle",
+      "lut_prior": 0.0,
+      "cos_sim": -0.01207739021629095,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        178.8333282470703,
+        281.5137023925781,
+        219.74497985839844,
+        325.8111572265625
+      ],
+      "class_id": 16,
+      "confidence": 0.3331858813762665,
+      "class_name": "dog",
+      "lut_prior": 0.0,
+      "cos_sim": -0.025225136429071426,
+      "tadop_score": 0.0,
+      "masked_out": true
+    }
+  ]
+}

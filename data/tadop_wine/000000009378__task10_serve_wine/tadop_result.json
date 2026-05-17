@@ -1,0 +1,96 @@
+{
+  "image_id": "000000009378",
+  "image_path": "coco_images/val2017/000000009378.jpg",
+  "task_id_1based": 10,
+  "task_name": "serve_wine",
+  "orig_shape_hw": [
+    400,
+    600
+  ],
+  "num_raw_detections": 5,
+  "num_after_mask": 0,
+  "timing_ms": {
+    "yolo_inference": 44.63386535644531,
+    "roi_extraction": 0.1201629638671875,
+    "scoring": 0.06699562072753906,
+    "tadop_overhead": 0.18715858459472656,
+    "total": 44.82102394104004
+  },
+  "ranked_detections": [
+    {
+      "bbox_xyxy": [
+        187.02708435058594,
+        216.5047607421875,
+        359.8135986328125,
+        257.219970703125
+      ],
+      "class_id": 29,
+      "confidence": 0.9104231595993042,
+      "class_name": "frisbee",
+      "lut_prior": 0.0,
+      "cos_sim": 0.013287476263940334,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        48.1902961730957,
+        44.194618225097656,
+        475.6281433105469,
+        387.1600646972656
+      ],
+      "class_id": 0,
+      "confidence": 0.8845570087432861,
+      "class_name": "person",
+      "lut_prior": 0.0,
+      "cos_sim": -0.0033938605338335037,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        425.17034912109375,
+        336.76824951171875,
+        483.14923095703125,
+        390.76800537109375
+      ],
+      "class_id": 0,
+      "confidence": 0.6998628377914429,
+      "class_name": "person",
+      "lut_prior": 0.0,
+      "cos_sim": -0.01895998790860176,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        497.5406799316406,
+        325.0533752441406,
+        550.5643310546875,
+        390.0476989746094
+      ],
+      "class_id": 0,
+      "confidence": 0.41096678376197815,
+      "class_name": "person",
+      "lut_prior": 0.0,
+      "cos_sim": -0.027351683005690575,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        537.2887573242188,
+        291.6287536621094,
+        593.46240234375,
+        390.6226501464844
+      ],
+      "class_id": 0,
+      "confidence": 0.32977214455604553,
+      "class_name": "person",
+      "lut_prior": 0.0,
+      "cos_sim": -0.01787303388118744,
+      "tadop_score": 0.0,
+      "masked_out": true
+    }
+  ]
+}

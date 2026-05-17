@@ -1,0 +1,36 @@
+{
+  "image_id": "000000007784",
+  "image_path": "coco_images/val2017/000000007784.jpg",
+  "task_id_1based": 10,
+  "task_name": "serve_wine",
+  "orig_shape_hw": [
+    375,
+    500
+  ],
+  "num_raw_detections": 1,
+  "num_after_mask": 0,
+  "timing_ms": {
+    "yolo_inference": 53.787946701049805,
+    "roi_extraction": 0.09584426879882812,
+    "scoring": 0.07009506225585938,
+    "tadop_overhead": 0.1659393310546875,
+    "total": 53.95388603210449
+  },
+  "ranked_detections": [
+    {
+      "bbox_xyxy": [
+        87.4172592163086,
+        84.52787780761719,
+        334.19232177734375,
+        309.2911682128906
+      ],
+      "class_id": 33,
+      "confidence": 0.888670802116394,
+      "class_name": "kite",
+      "lut_prior": 0.0,
+      "cos_sim": -0.020422406494617462,
+      "tadop_score": 0.0,
+      "masked_out": true
+    }
+  ]
+}

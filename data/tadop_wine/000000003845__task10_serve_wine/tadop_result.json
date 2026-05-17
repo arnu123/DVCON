@@ -1,0 +1,141 @@
+{
+  "image_id": "000000003845",
+  "image_path": "coco_images/val2017/000000003845.jpg",
+  "task_id_1based": 10,
+  "task_name": "serve_wine",
+  "orig_shape_hw": [
+    375,
+    500
+  ],
+  "num_raw_detections": 8,
+  "num_after_mask": 1,
+  "timing_ms": {
+    "yolo_inference": 46.48089408874512,
+    "roi_extraction": 0.1990795135498047,
+    "scoring": 0.07104873657226562,
+    "tadop_overhead": 0.2701282501220703,
+    "total": 46.75102233886719
+  },
+  "ranked_detections": [
+    {
+      "bbox_xyxy": [
+        108.59049987792969,
+        0.5649685859680176,
+        185.47177124023438,
+        54.48322296142578
+      ],
+      "class_id": 41,
+      "confidence": 0.9048970937728882,
+      "class_name": "cup",
+      "lut_prior": 0.6903367638587952,
+      "cos_sim": -0.02475983463227749,
+      "tadop_score": 0.0,
+      "masked_out": false
+    },
+    {
+      "bbox_xyxy": [
+        20.801544189453125,
+        16.832590103149414,
+        498.0260925292969,
+        369.12518310546875
+      ],
+      "class_id": 60,
+      "confidence": 0.7161479592323303,
+      "class_name": "dining table",
+      "lut_prior": 0.0,
+      "cos_sim": 0.0018069325014948845,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        451.0368347167969,
+        0.9522199630737305,
+        499.87890625,
+        72.53382110595703
+      ],
+      "class_id": 56,
+      "confidence": 0.6297946572303772,
+      "class_name": "chair",
+      "lut_prior": 0.0012360939290374517,
+      "cos_sim": 0.021441275253891945,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        120.02079772949219,
+        206.5623321533203,
+        184.60751342773438,
+        270.3042907714844
+      ],
+      "class_id": 50,
+      "confidence": 0.611137866973877,
+      "class_name": "broccoli",
+      "lut_prior": 0.0,
+      "cos_sim": 0.006800217553973198,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        189.91339111328125,
+        183.8616485595703,
+        270.6017761230469,
+        259.66827392578125
+      ],
+      "class_id": 50,
+      "confidence": 0.5951290130615234,
+      "class_name": "broccoli",
+      "lut_prior": 0.0,
+      "cos_sim": -0.005344652570784092,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        258.4156188964844,
+        194.4551239013672,
+        296.4796142578125,
+        266.8046875
+      ],
+      "class_id": 51,
+      "confidence": 0.34997615218162537,
+      "class_name": "carrot",
+      "lut_prior": 0.0,
+      "cos_sim": 0.0001755356788635254,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        212.36582946777344,
+        137.95733642578125,
+        277.07342529296875,
+        192.20623779296875
+      ],
+      "class_id": 51,
+      "confidence": 0.3275279998779297,
+      "class_name": "carrot",
+      "lut_prior": 0.0,
+      "cos_sim": -0.0010780105367302895,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        6.044578552246094,
+        45.90125274658203,
+        496.811767578125,
+        369.4144287109375
+      ],
+      "class_id": 45,
+      "confidence": 0.30329379439353943,
+      "class_name": "bowl",
+      "lut_prior": 0.022284122183918953,
+      "cos_sim": 0.0016992324963212013,
+      "tadop_score": 0.0,
+      "masked_out": true
+    }
+  ]
+}

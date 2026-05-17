@@ -1,0 +1,36 @@
+{
+  "image_id": "000000000285",
+  "image_path": "coco_images/val2017/000000000285.jpg",
+  "task_id_1based": 10,
+  "task_name": "serve_wine",
+  "orig_shape_hw": [
+    640,
+    586
+  ],
+  "num_raw_detections": 1,
+  "num_after_mask": 0,
+  "timing_ms": {
+    "yolo_inference": 47.24383354187012,
+    "roi_extraction": 0.10013580322265625,
+    "scoring": 0.04410743713378906,
+    "tadop_overhead": 0.1442432403564453,
+    "total": 47.38807678222656
+  },
+  "ranked_detections": [
+    {
+      "bbox_xyxy": [
+        38.10302734375,
+        73.06781005859375,
+        580.697021484375,
+        639.0211791992188
+      ],
+      "class_id": 21,
+      "confidence": 0.9628421068191528,
+      "class_name": "bear",
+      "lut_prior": 0.0,
+      "cos_sim": -0.0010115951299667358,
+      "tadop_score": 0.0,
+      "masked_out": true
+    }
+  ]
+}

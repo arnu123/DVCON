@@ -1,0 +1,81 @@
+{
+  "image_id": "000000006763",
+  "image_path": "coco_images/val2017/000000006763.jpg",
+  "task_id_1based": 10,
+  "task_name": "serve_wine",
+  "orig_shape_hw": [
+    500,
+    375
+  ],
+  "num_raw_detections": 4,
+  "num_after_mask": 0,
+  "timing_ms": {
+    "yolo_inference": 48.02393913269043,
+    "roi_extraction": 0.14472007751464844,
+    "scoring": 0.07390975952148438,
+    "tadop_overhead": 0.2186298370361328,
+    "total": 48.24256896972656
+  },
+  "ranked_detections": [
+    {
+      "bbox_xyxy": [
+        4.6021223068237305,
+        95.59069061279297,
+        231.24459838867188,
+        476.45745849609375
+      ],
+      "class_id": 0,
+      "confidence": 0.7188917994499207,
+      "class_name": "person",
+      "lut_prior": 0.0,
+      "cos_sim": -0.024733951315283775,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        193.70718383789062,
+        127.9461898803711,
+        366.0573425292969,
+        484.3623352050781
+      ],
+      "class_id": 0,
+      "confidence": 0.5775295495986938,
+      "class_name": "person",
+      "lut_prior": 0.0,
+      "cos_sim": -0.016608726233243942,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        0.2507805824279785,
+        214.28794860839844,
+        44.10692596435547,
+        333.4327697753906
+      ],
+      "class_id": 0,
+      "confidence": 0.4918411076068878,
+      "class_name": "person",
+      "lut_prior": 0.0,
+      "cos_sim": -0.01472395658493042,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        144.73358154296875,
+        235.4837188720703,
+        178.8349609375,
+        363.6546325683594
+      ],
+      "class_id": 27,
+      "confidence": 0.4604438841342926,
+      "class_name": "tie",
+      "lut_prior": 0.0,
+      "cos_sim": -0.018100077286362648,
+      "tadop_score": 0.0,
+      "masked_out": true
+    }
+  ]
+}

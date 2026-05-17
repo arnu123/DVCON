@@ -1,0 +1,111 @@
+{
+  "image_id": "000000008762",
+  "image_path": "coco_images/val2017/000000008762.jpg",
+  "task_id_1based": 10,
+  "task_name": "serve_wine",
+  "orig_shape_hw": [
+    427,
+    640
+  ],
+  "num_raw_detections": 6,
+  "num_after_mask": 0,
+  "timing_ms": {
+    "yolo_inference": 49.88217353820801,
+    "roi_extraction": 0.09512901306152344,
+    "scoring": 0.07390975952148438,
+    "tadop_overhead": 0.1690387725830078,
+    "total": 50.051212310791016
+  },
+  "ranked_detections": [
+    {
+      "bbox_xyxy": [
+        165.15335083007812,
+        104.86630249023438,
+        185.96328735351562,
+        145.58761596679688
+      ],
+      "class_id": 9,
+      "confidence": 0.7494201064109802,
+      "class_name": "traffic light",
+      "lut_prior": 0.0,
+      "cos_sim": -0.0135734211653471,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        58.52695083618164,
+        84.4517822265625,
+        79.15286254882812,
+        145.5657958984375
+      ],
+      "class_id": 9,
+      "confidence": 0.6639292240142822,
+      "class_name": "traffic light",
+      "lut_prior": 0.0,
+      "cos_sim": -0.03415730595588684,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        493.67694091796875,
+        178.57672119140625,
+        515.6825561523438,
+        221.25457763671875
+      ],
+      "class_id": 9,
+      "confidence": 0.5353443622589111,
+      "class_name": "traffic light",
+      "lut_prior": 0.0,
+      "cos_sim": -0.04907449334859848,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        503.12384033203125,
+        229.67767333984375,
+        517.7550659179688,
+        244.58770751953125
+      ],
+      "class_id": 9,
+      "confidence": 0.4907941222190857,
+      "class_name": "traffic light",
+      "lut_prior": 0.0,
+      "cos_sim": -0.011993177235126495,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        483.99560546875,
+        229.05377197265625,
+        499.1021728515625,
+        245.94122314453125
+      ],
+      "class_id": 9,
+      "confidence": 0.4661734104156494,
+      "class_name": "traffic light",
+      "lut_prior": 0.0,
+      "cos_sim": -0.025020375847816467,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        87.26303100585938,
+        102.82664489746094,
+        106.16290283203125,
+        125.98271179199219
+      ],
+      "class_id": 9,
+      "confidence": 0.4308573305606842,
+      "class_name": "traffic light",
+      "lut_prior": 0.0,
+      "cos_sim": -0.013232387602329254,
+      "tadop_score": 0.0,
+      "masked_out": true
+    }
+  ]
+}

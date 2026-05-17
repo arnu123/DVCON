@@ -1,0 +1,126 @@
+{
+  "image_id": "000000005600",
+  "image_path": "coco_images/val2017/000000005600.jpg",
+  "task_id_1based": 10,
+  "task_name": "serve_wine",
+  "orig_shape_hw": [
+    361,
+    640
+  ],
+  "num_raw_detections": 7,
+  "num_after_mask": 0,
+  "timing_ms": {
+    "yolo_inference": 43.837785720825195,
+    "roi_extraction": 0.20599365234375,
+    "scoring": 0.07104873657226562,
+    "tadop_overhead": 0.2770423889160156,
+    "total": 44.11482810974121
+  },
+  "ranked_detections": [
+    {
+      "bbox_xyxy": [
+        208.97373962402344,
+        138.70068359375,
+        531.818603515625,
+        357.908935546875
+      ],
+      "class_id": 45,
+      "confidence": 0.7076513171195984,
+      "class_name": "bowl",
+      "lut_prior": 0.022284122183918953,
+      "cos_sim": 0.012050604447722435,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        112.84616088867188,
+        1.74273681640625,
+        379.05731201171875,
+        187.74249267578125
+      ],
+      "class_id": 45,
+      "confidence": 0.6879483461380005,
+      "class_name": "bowl",
+      "lut_prior": 0.022284122183918953,
+      "cos_sim": -0.0042078569531440735,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        324.4713134765625,
+        173.05413818359375,
+        430.3291015625,
+        287.49212646484375
+      ],
+      "class_id": 49,
+      "confidence": 0.5320547819137573,
+      "class_name": "orange",
+      "lut_prior": 0.0,
+      "cos_sim": 0.028971653431653976,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        0.595458984375,
+        1.2479248046875,
+        585.22216796875,
+        356.45941162109375
+      ],
+      "class_id": 60,
+      "confidence": 0.49096783995628357,
+      "class_name": "dining table",
+      "lut_prior": 0.0,
+      "cos_sim": 0.006044719368219376,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        90.65301513671875,
+        99.92239379882812,
+        215.20401000976562,
+        238.60366821289062
+      ],
+      "class_id": 44,
+      "confidence": 0.4696081280708313,
+      "class_name": "spoon",
+      "lut_prior": 0.0,
+      "cos_sim": 0.013165272772312164,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        402.269775390625,
+        160.462646484375,
+        498.355712890625,
+        269.9805908203125
+      ],
+      "class_id": 49,
+      "confidence": 0.4194393754005432,
+      "class_name": "orange",
+      "lut_prior": 0.0,
+      "cos_sim": 0.0320325642824173,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        397.21221923828125,
+        270.5451965332031,
+        498.6229248046875,
+        353.4987487792969
+      ],
+      "class_id": 49,
+      "confidence": 0.2591319978237152,
+      "class_name": "orange",
+      "lut_prior": 0.0,
+      "cos_sim": 0.005858134478330612,
+      "tadop_score": 0.0,
+      "masked_out": true
+    }
+  ]
+}

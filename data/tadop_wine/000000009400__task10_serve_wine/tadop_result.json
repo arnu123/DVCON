@@ -1,0 +1,336 @@
+{
+  "image_id": "000000009400",
+  "image_path": "coco_images/val2017/000000009400.jpg",
+  "task_id_1based": 10,
+  "task_name": "serve_wine",
+  "orig_shape_hw": [
+    480,
+    640
+  ],
+  "num_raw_detections": 21,
+  "num_after_mask": 3,
+  "timing_ms": {
+    "yolo_inference": 45.092105865478516,
+    "roi_extraction": 0.308990478515625,
+    "scoring": 0.08797645568847656,
+    "tadop_overhead": 0.39696693420410156,
+    "total": 45.48907279968262
+  },
+  "ranked_detections": [
+    {
+      "bbox_xyxy": [
+        69.04681396484375,
+        308.0506591796875,
+        262.497802734375,
+        475.390625
+      ],
+      "class_id": 63,
+      "confidence": 0.8829072117805481,
+      "class_name": "laptop",
+      "lut_prior": 0.0,
+      "cos_sim": -0.026359882205724716,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        309.6944885253906,
+        90.05810546875,
+        457.0959777832031,
+        287.4132080078125
+      ],
+      "class_id": 0,
+      "confidence": 0.829635500907898,
+      "class_name": "person",
+      "lut_prior": 0.0,
+      "cos_sim": -0.006643336266279221,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        274.0585632324219,
+        62.348052978515625,
+        366.2665100097656,
+        244.37747192382812
+      ],
+      "class_id": 0,
+      "confidence": 0.7657520771026611,
+      "class_name": "person",
+      "lut_prior": 0.0,
+      "cos_sim": -0.011865099892020226,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        143.2421875,
+        92.58699035644531,
+        301.248046875,
+        275.88934326171875
+      ],
+      "class_id": 0,
+      "confidence": 0.7597166299819946,
+      "class_name": "person",
+      "lut_prior": 0.0,
+      "cos_sim": -0.009176610969007015,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        357.89044189453125,
+        284.9940185546875,
+        401.34783935546875,
+        361.7237548828125
+      ],
+      "class_id": 41,
+      "confidence": 0.7575562000274658,
+      "class_name": "cup",
+      "lut_prior": 0.6903367638587952,
+      "cos_sim": -0.008185137063264847,
+      "tadop_score": 0.0,
+      "masked_out": false
+    },
+    {
+      "bbox_xyxy": [
+        457.47454833984375,
+        365.36383056640625,
+        587.2594604492188,
+        478.75872802734375
+      ],
+      "class_id": 66,
+      "confidence": 0.7244159579277039,
+      "class_name": "keyboard",
+      "lut_prior": 0.0,
+      "cos_sim": 0.004814447835087776,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        262.42535400390625,
+        228.8883056640625,
+        437.516845703125,
+        471.6243896484375
+      ],
+      "class_id": 63,
+      "confidence": 0.6712096929550171,
+      "class_name": "laptop",
+      "lut_prior": 0.0,
+      "cos_sim": -0.015052363276481628,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        0.006725311279296875,
+        215.0096435546875,
+        60.047637939453125,
+        307.7115478515625
+      ],
+      "class_id": 63,
+      "confidence": 0.6511489748954773,
+      "class_name": "laptop",
+      "lut_prior": 0.0,
+      "cos_sim": 0.008424438536167145,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        347.891845703125,
+        225.2945556640625,
+        493.6553955078125,
+        329.41839599609375
+      ],
+      "class_id": 63,
+      "confidence": 0.6506054997444153,
+      "class_name": "laptop",
+      "lut_prior": 0.0,
+      "cos_sim": 0.005722062662243843,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        250.9100341796875,
+        416.27630615234375,
+        317.61370849609375,
+        479.46099853515625
+      ],
+      "class_id": 41,
+      "confidence": 0.6493371725082397,
+      "class_name": "cup",
+      "lut_prior": 0.6903367638587952,
+      "cos_sim": -0.03340747207403183,
+      "tadop_score": 0.0,
+      "masked_out": false
+    },
+    {
+      "bbox_xyxy": [
+        0.0,
+        173.1378631591797,
+        101.78202819824219,
+        265.38775634765625
+      ],
+      "class_id": 63,
+      "confidence": 0.6446835994720459,
+      "class_name": "laptop",
+      "lut_prior": 0.0,
+      "cos_sim": -0.018057193607091904,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        0.20316314697265625,
+        87.17593383789062,
+        107.11844635009766,
+        186.21914672851562
+      ],
+      "class_id": 0,
+      "confidence": 0.6410361528396606,
+      "class_name": "person",
+      "lut_prior": 0.0,
+      "cos_sim": -0.019337596371769905,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        448.95733642578125,
+        66.98992919921875,
+        533.18994140625,
+        229.1353759765625
+      ],
+      "class_id": 0,
+      "confidence": 0.5972147583961487,
+      "class_name": "person",
+      "lut_prior": 0.0,
+      "cos_sim": -0.020568784326314926,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        458.719970703125,
+        356.0045471191406,
+        515.708740234375,
+        383.6860046386719
+      ],
+      "class_id": 64,
+      "confidence": 0.5941812992095947,
+      "class_name": "mouse",
+      "lut_prior": 0.0,
+      "cos_sim": -0.018386535346508026,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        217.71820068359375,
+        275.078369140625,
+        246.1187744140625,
+        314.697265625
+      ],
+      "class_id": 41,
+      "confidence": 0.5921626687049866,
+      "class_name": "cup",
+      "lut_prior": 0.6903367638587952,
+      "cos_sim": -0.012495674192905426,
+      "tadop_score": 0.0,
+      "masked_out": false
+    },
+    {
+      "bbox_xyxy": [
+        82.65489959716797,
+        209.5657958984375,
+        213.46514892578125,
+        277.049072265625
+      ],
+      "class_id": 63,
+      "confidence": 0.5803430676460266,
+      "class_name": "laptop",
+      "lut_prior": 0.0,
+      "cos_sim": -0.0025223977863788605,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        452.3282470703125,
+        94.00430297851562,
+        639.443359375,
+        361.0974426269531
+      ],
+      "class_id": 0,
+      "confidence": 0.5061783194541931,
+      "class_name": "person",
+      "lut_prior": 0.0,
+      "cos_sim": -0.0068315379321575165,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        562.8428955078125,
+        48.29527282714844,
+        614.7181396484375,
+        126.08738708496094
+      ],
+      "class_id": 0,
+      "confidence": 0.47001180052757263,
+      "class_name": "person",
+      "lut_prior": 0.0,
+      "cos_sim": -0.018396474421024323,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        367.15185546875,
+        59.642120361328125,
+        404.716064453125,
+        92.91632080078125
+      ],
+      "class_id": 0,
+      "confidence": 0.389117568731308,
+      "class_name": "person",
+      "lut_prior": 0.0,
+      "cos_sim": -0.019169295206665993,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        84.10269165039062,
+        48.57121276855469,
+        124.810546875,
+        87.85630798339844
+      ],
+      "class_id": 63,
+      "confidence": 0.29961997270584106,
+      "class_name": "laptop",
+      "lut_prior": 0.0,
+      "cos_sim": -0.0230786744505167,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        528.1240234375,
+        411.5988464355469,
+        639.70068359375,
+        477.19873046875
+      ],
+      "class_id": 0,
+      "confidence": 0.25518763065338135,
+      "class_name": "person",
+      "lut_prior": 0.0,
+      "cos_sim": -0.015232766047120094,
+      "tadop_score": 0.0,
+      "masked_out": true
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "image_id": "000000005477",
+  "image_path": "coco_images/val2017/000000005477.jpg",
+  "task_id_1based": 10,
+  "task_name": "serve_wine",
+  "orig_shape_hw": [
+    349,
+    640
+  ],
+  "num_raw_detections": 1,
+  "num_after_mask": 0,
+  "timing_ms": {
+    "yolo_inference": 45.433998107910156,
+    "roi_extraction": 0.07295608520507812,
+    "scoring": 0.0591278076171875,
+    "tadop_overhead": 0.13208389282226562,
+    "total": 45.56608200073242
+  },
+  "ranked_detections": [
+    {
+      "bbox_xyxy": [
+        8.680908203125,
+        105.16560363769531,
+        619.22265625,
+        287.50628662109375
+      ],
+      "class_id": 4,
+      "confidence": 0.9310170412063599,
+      "class_name": "airplane",
+      "lut_prior": 0.0,
+      "cos_sim": -0.03182290866971016,
+      "tadop_score": 0.0,
+      "masked_out": true
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "image_id": "000000007818",
+  "image_path": "coco_images/val2017/000000007818.jpg",
+  "task_id_1based": 10,
+  "task_name": "serve_wine",
+  "orig_shape_hw": [
+    427,
+    640
+  ],
+  "num_raw_detections": 6,
+  "num_after_mask": 0,
+  "timing_ms": {
+    "yolo_inference": 48.27690124511719,
+    "roi_extraction": 0.15306472778320312,
+    "scoring": 0.07486343383789062,
+    "tadop_overhead": 0.22792816162109375,
+    "total": 48.50482940673828
+  },
+  "ranked_detections": [
+    {
+      "bbox_xyxy": [
+        289.9908447265625,
+        213.11593627929688,
+        363.12255859375,
+        313.4429016113281
+      ],
+      "class_id": 75,
+      "confidence": 0.8090018630027771,
+      "class_name": "vase",
+      "lut_prior": 0.021929824724793434,
+      "cos_sim": -0.020053407177329063,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        258.8326416015625,
+        79.21649169921875,
+        364.86181640625,
+        312.45721435546875
+      ],
+      "class_id": 58,
+      "confidence": 0.5126010775566101,
+      "class_name": "potted plant",
+      "lut_prior": 0.0,
+      "cos_sim": -0.02820727974176407,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        6.403404235839844,
+        261.15692138671875,
+        115.69401550292969,
+        310.28155517578125
+      ],
+      "class_id": 56,
+      "confidence": 0.5001309514045715,
+      "class_name": "chair",
+      "lut_prior": 0.0012360939290374517,
+      "cos_sim": -0.07301059365272522,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        398.6612243652344,
+        187.11355590820312,
+        443.8965148925781,
+        275.0038757324219
+      ],
+      "class_id": 39,
+      "confidence": 0.294420450925827,
+      "class_name": "bottle",
+      "lut_prior": 0.005571030545979738,
+      "cos_sim": -0.020471075549721718,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        469.82958984375,
+        268.15234375,
+        587.264404296875,
+        301.295654296875
+      ],
+      "class_id": 73,
+      "confidence": 0.2836768329143524,
+      "class_name": "book",
+      "lut_prior": 0.0,
+      "cos_sim": -0.04248588904738426,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        0.0,
+        275.9495849609375,
+        637.1683349609375,
+        420.7974853515625
+      ],
+      "class_id": 60,
+      "confidence": 0.2516670823097229,
+      "class_name": "dining table",
+      "lut_prior": 0.0,
+      "cos_sim": -0.033311981707811356,
+      "tadop_score": 0.0,
+      "masked_out": true
+    }
+  ]
+}

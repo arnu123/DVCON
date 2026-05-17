@@ -1,0 +1,141 @@
+{
+  "image_id": "000000008629",
+  "image_path": "coco_images/val2017/000000008629.jpg",
+  "task_id_1based": 10,
+  "task_name": "serve_wine",
+  "orig_shape_hw": [
+    640,
+    640
+  ],
+  "num_raw_detections": 8,
+  "num_after_mask": 0,
+  "timing_ms": {
+    "yolo_inference": 51.810264587402344,
+    "roi_extraction": 0.2009868621826172,
+    "scoring": 0.07510185241699219,
+    "tadop_overhead": 0.2760887145996094,
+    "total": 52.08635330200195
+  },
+  "ranked_detections": [
+    {
+      "bbox_xyxy": [
+        228.0401611328125,
+        431.71435546875,
+        414.3253173828125,
+        618.63720703125
+      ],
+      "class_id": 53,
+      "confidence": 0.8655844926834106,
+      "class_name": "pizza",
+      "lut_prior": 0.0,
+      "cos_sim": -0.0019236821681261063,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        15.51776123046875,
+        19.161834716796875,
+        411.9013366699219,
+        376.58843994140625
+      ],
+      "class_id": 53,
+      "confidence": 0.7017075419425964,
+      "class_name": "pizza",
+      "lut_prior": 0.0,
+      "cos_sim": 0.01034676656126976,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        429.4290771484375,
+        233.3173828125,
+        620.1865234375,
+        390.9083251953125
+      ],
+      "class_id": 53,
+      "confidence": 0.700832188129425,
+      "class_name": "pizza",
+      "lut_prior": 0.0,
+      "cos_sim": 0.004210035316646099,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        594.505126953125,
+        284.0167236328125,
+        620.387451171875,
+        337.29718017578125
+      ],
+      "class_id": 42,
+      "confidence": 0.6980522274971008,
+      "class_name": "fork",
+      "lut_prior": 0.0,
+      "cos_sim": 0.01705770380795002,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        429.0791320800781,
+        20.165802001953125,
+        620.0068359375,
+        185.62176513671875
+      ],
+      "class_id": 53,
+      "confidence": 0.6492302417755127,
+      "class_name": "pizza",
+      "lut_prior": 0.0,
+      "cos_sim": 0.004596593789756298,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        29.3570556640625,
+        431.531982421875,
+        192.73385620117188,
+        600.358642578125
+      ],
+      "class_id": 53,
+      "confidence": 0.5488373041152954,
+      "class_name": "pizza",
+      "lut_prior": 0.0,
+      "cos_sim": 0.0006040604785084724,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        431.58880615234375,
+        430.31524658203125,
+        619.7868041992188,
+        580.3651123046875
+      ],
+      "class_id": 53,
+      "confidence": 0.3980563282966614,
+      "class_name": "pizza",
+      "lut_prior": 0.0,
+      "cos_sim": 0.012920694425702095,
+      "tadop_score": 0.0,
+      "masked_out": true
+    },
+    {
+      "bbox_xyxy": [
+        427.8700256347656,
+        225.42431640625,
+        621.7706298828125,
+        421.2032470703125
+      ],
+      "class_id": 60,
+      "confidence": 0.3066078722476959,
+      "class_name": "dining table",
+      "lut_prior": 0.0,
+      "cos_sim": -0.0027196165174245834,
+      "tadop_score": 0.0,
+      "masked_out": true
+    }
+  ]
+}
